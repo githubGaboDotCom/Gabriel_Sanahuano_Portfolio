@@ -1,1 +1,1 @@
-# Gabriel_Sanahuano_Portfolio
+This is a personal project for the design and creation of my professional portfolio. In it, you can find my professional career, aspirations, and personal projects in the area of software and cybersecurity. Click on the link to see my website!
