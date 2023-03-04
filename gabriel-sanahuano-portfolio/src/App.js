@@ -1,13 +1,29 @@
 import './App.css';
+import { cloneElement } from 'react';
+import {useLocation, useRoutes} from "react-router-dom";
+import { AnimatePresence } from 'framer-motion';
 import HomePage from './components/HomePage';
-import NavigationBar from './components/NavigationBar';
+import AudioPromptMessage from './components/AudioPromptMessage';
 
 function App() {
+  const webPages = useRoutes([
+      {
+        path: "/",
+        element: <AudioPromptMessage />
+      },
+      {
+        path: "/HomePage",
+        element: <HomePage />
+      }
+  ]);
+
+  const location = useLocation();
+  if (!webPages) return null;
+
   return (
-      <div>
-          <HomePage />
-          <NavigationBar />
-      </div>
+      <AnimatePresence mode = 'wait'>
+          {cloneElement(webPages, {key: location.pathname})} 
+      </AnimatePresence> 
   );
 }
 
