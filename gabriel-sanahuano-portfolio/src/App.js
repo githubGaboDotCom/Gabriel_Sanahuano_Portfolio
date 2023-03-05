@@ -2,17 +2,12 @@ import './App.css';
 import { cloneElement } from 'react';
 import {useLocation, useRoutes} from "react-router-dom";
 import { AnimatePresence } from 'framer-motion';
-import HomePage from './components/HomePage';
-import AudioPromptMessage from './components/AudioPromptMessage';
+import HomePage from './components/webpages/HomePage';
 
 function App() {
   const webPages = useRoutes([
       {
         path: "/",
-        element: <AudioPromptMessage />
-      },
-      {
-        path: "/HomePage",
         element: <HomePage />
       }
   ]);
