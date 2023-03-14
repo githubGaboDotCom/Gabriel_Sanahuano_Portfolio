@@ -2,6 +2,7 @@ import '../styles/css/HomePage.css';
 import WebsiteBackgroundVideo from '../websiteComponents/WebsiteBackgroundVideo';
 import AudioPromptMessage from './AudioPromptMessagePage';
 import React from 'react';
+// import BinarySequence from '../websiteComponents/BinarySequence';
 
 class HomePage extends React.Component {
 
@@ -27,15 +28,3 @@ class HomePage extends React.Component {
 }
 
 export default HomePage;
-
-// function HomePage () {
-    
-//     return (
-//         <div className="App">
-//             <WebsiteBackgroundVideo />
-//             <AudioPromptMessage />
-//         </div>
-//     );
-// }
-
-// export default HomePage;
