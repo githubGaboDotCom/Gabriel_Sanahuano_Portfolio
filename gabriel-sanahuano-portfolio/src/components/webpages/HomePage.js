@@ -2,7 +2,7 @@ import '../styles/css/HomePage.css';
 import WebsiteBackgroundVideo from '../websiteComponents/WebsiteBackgroundVideo';
 import AudioPromptMessage from './AudioPromptMessagePage';
 import React from 'react';
-// import BinarySequence from '../websiteComponents/BinarySequence';
+import BinarySequence from '../websiteComponents/BinarySequence';
 
 class HomePage extends React.Component {
 
@@ -16,12 +16,14 @@ class HomePage extends React.Component {
             this.setState({isBackgroundVideoMounted: true});
         }, 1000);
     }
+    
 
     render(){
         return(
             <div className="App">
                 <WebsiteBackgroundVideo />
                 {this.state.isBackgroundVideoMounted && <AudioPromptMessage />}
+                <BinarySequence />
             </div>
         );
     }
