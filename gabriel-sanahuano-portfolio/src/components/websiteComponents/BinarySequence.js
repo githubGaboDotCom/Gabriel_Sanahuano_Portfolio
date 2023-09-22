@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import {wrap} from '@motionone/utils';
 import '../styles/css/BinarySequence.css';
 
-function MotionedNumberSequence ({children}, baseVelocity = 100) { 
+function MotionedNumberSequence (children, baseVelocity = 100) { 
 
     const baseX = useMotionValue(0);
     const { scrollY } = useScroll();
@@ -36,18 +36,18 @@ function MotionedNumberSequence ({children}, baseVelocity = 100) {
     return (
         <div className = 'NumbersContainer'>
             <motion.div className = 'numbers' style={{ x }}>
-                <span>{children}</span>
+                <span>{children.numbersSequence}</span>
             </motion.div>
         </div>
     );
 }
 
 function BinarySequence () {
-    <section>
-        <MotionedNumberSequence baseVelocity = {-5}>
-            1 0 1 0 1 0 0 1 0 1 0 0 1 1 1 0 0 1 0 1
-        </MotionedNumberSequence>
-    </section>
+    return (
+        <section>
+            <MotionedNumberSequence numbersSequence = {'1 0 1 0 1 0'} baseVelocity = {-5} />
+        </section>
+    );
 }
 
 export default BinarySequence;

@@ -16,6 +16,7 @@ section {
 
 .NumbersContainer .numbers {
     font-weight: 600;
+    color: green;
     text-transform: uppercase;
     font-size: 64px;
     display: flex;
