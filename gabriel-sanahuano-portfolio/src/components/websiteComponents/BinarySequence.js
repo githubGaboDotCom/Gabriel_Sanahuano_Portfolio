@@ -17,20 +17,20 @@ function MotionedNumberSequence ({children}, baseVelocity) {
         clamp: false
     });
     const x = useTransform(baseX, (v) => `${wrap(-43, -45, v)}%`);
-    // const directionFactor = useRef(1);
-    // useAnimationFrame((t, delta) => {
-    //     let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
+    const directionFactor = useRef(1);
+    useAnimationFrame((t, delta) => {
+        let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
         
-    //     if (velocityFactor.get() < 0) {
-    //     directionFactor.current = -1;
-    //     } else if (velocityFactor.get() > 0) {
-    //     directionFactor.current = 1;
-    //     }
+        if (velocityFactor.get() < 0) {
+        directionFactor.current = -1;
+        } else if (velocityFactor.get() > 0) {
+        directionFactor.current = 1;
+        }
 
-    //     moveBy += directionFactor.current * moveBy * velocityFactor.get();
+        moveBy += directionFactor.current * moveBy * velocityFactor.get();
 
-    //     baseX.set(baseX.get() + moveBy);
-    // });
+        baseX.set(baseX.get() + moveBy);
+    });
 
     return (
         <div className = 'NumbersContainer'>
