@@ -1,6 +1,5 @@
 section {
-    padding-top: 85vh;
-    padding-bottom: 85vh;
+    padding-top: 20px;
     position: relative;
 }
 
@@ -9,16 +8,16 @@ section {
     letter-spacing: -2px;
     line-height: 0.8;
     margin: 0;
+    padding-bottom: 9px;
     white-space: nowrap;
     display: flex;
     flex-wrap: nowrap;
 }
 
 .NumbersContainer .numbers {
-    font-weight: 600;
-    color: green;
-    text-transform: uppercase;
-    font-size: 64px;
+    font-weight: 425;
+    color: rgba(71, 209, 3, 0.804);
+    font-size: 24px;
     display: flex;
     white-space: nowrap;
     display: flex;
@@ -27,5 +26,5 @@ section {
 
 .NumbersContainer span {
     display: block;
-    margin-right: 30px;
+    margin-right: 5px;
 }

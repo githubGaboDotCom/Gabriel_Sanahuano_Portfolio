@@ -1,33 +1,13 @@
-import {useMotionValue, useTransform, motion, useScroll, useVelocity, useAnimationFrame, useSpring} from 'framer-motion';
-import { useRef } from 'react';
+import {useMotionValue, useTransform, motion, useAnimationFrame} from 'framer-motion';
 import {wrap} from '@motionone/utils';
 import '../styles/css/BinarySequence.css';
 
-function MotionedNumberSequence ({children}, baseVelocity) { 
+function BinarySequenceToTheLeft ({children}) { 
 
-    const baseX = useMotionValue(0);
-    const { scrollY } = useScroll();
-    // const x = useTransform(scrollYProgress, [0, 1], [0, 1000]);
-    const scrollVelocity = useVelocity(scrollY);
-    const smoothVelocity = useSpring(scrollVelocity, {
-        damping: 50,
-        stiffness: 400
-    });
-    const velocityFactor = useTransform(smoothVelocity, [0, 1000], [0, 5], {
-        clamp: false
-    });
-    const x = useTransform(baseX, (v) => `${wrap(-43, -45, v)}%`);
-    const directionFactor = useRef(1);
+    const baseX = useMotionValue(-100);
+    const x = useTransform(baseX, (v) => `${wrap(-105, 80, v)}%`);
     useAnimationFrame((t, delta) => {
-        let moveBy = directionFactor.current * baseVelocity * (delta / 1000);
-        
-        if (velocityFactor.get() < 0) {
-        directionFactor.current = -1;
-        } else if (velocityFactor.get() > 0) {
-        directionFactor.current = 1;
-        }
-
-        moveBy += directionFactor.current * moveBy * velocityFactor.get();
+        let moveBy = -5 * (delta / 1000);
 
         baseX.set(baseX.get() + moveBy);
     });
@@ -35,6 +15,40 @@ function MotionedNumberSequence ({children}, baseVelocity) {
     return (
         <div className = 'NumbersContainer'>
             <motion.div className = 'numbers' style={{ x }}>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+            </motion.div>
+        </div>
+    );
+}
+
+function BinarySequenceToTheRight ({children}) { 
+
+    const baseX = useMotionValue(95);
+    const x = useTransform(baseX, (v) => `${wrap(-100, 100, v)}%`);
+    useAnimationFrame((t, delta) => {
+        let moveBy = 5 * (delta / 1000);
+
+        baseX.set(baseX.get() + moveBy);
+    });
+
+    return (
+        <div className = 'NumbersContainer'>
+            <motion.div className = 'numbers' style={{ x }}>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
+                <span>{children}</span>
                 <span>{children}</span>
                 <span>{children}</span>
                 <span>{children}</span>
@@ -48,8 +62,26 @@ function BinarySequence () {
 
     return (
         <section>
-            <MotionedNumberSequence baseVelocity = {-5}>1 0 1 0 1 0</MotionedNumberSequence>
-            <MotionedNumberSequence baseVelocity = {-5}>1 0 1 0 1 0</MotionedNumberSequence>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
+            <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
+            <BinarySequenceToTheRight>1 1 0 1 0 1 1 0 1 1</BinarySequenceToTheRight>
         </section>
     );
 }
