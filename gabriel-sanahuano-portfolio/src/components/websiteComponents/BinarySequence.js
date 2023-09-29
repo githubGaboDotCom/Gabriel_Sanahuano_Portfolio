@@ -7,7 +7,7 @@ function BinarySequenceToTheLeft ({children}) {
     const baseX = useMotionValue(-100);
     const x = useTransform(baseX, (v) => `${wrap(-105, 80, v)}%`);
     useAnimationFrame((t, delta) => {
-        let moveBy = -5 * (delta / 1000);
+        let moveBy = -9 * (delta / 1000);
 
         baseX.set(baseX.get() + moveBy);
     });
@@ -35,7 +35,7 @@ function BinarySequenceToTheRight ({children}) {
     const baseX = useMotionValue(95);
     const x = useTransform(baseX, (v) => `${wrap(-100, 100, v)}%`);
     useAnimationFrame((t, delta) => {
-        let moveBy = 5 * (delta / 1000);
+        let moveBy = 9 * (delta / 1000);
 
         baseX.set(baseX.get() + moveBy);
     });

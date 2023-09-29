@@ -27,4 +27,15 @@ section {
 .NumbersContainer span {
     display: block;
     margin-right: 5px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+    from {
+      text-shadow: 0 0 0.1px rgba(21, 61, 1, 0.863), 0 0 0.2px rgba(21, 61, 1, 0.863), 0 0 0.3px rgba(21, 61, 1, 0.863), 0 0 0.4px rgba(21, 61, 1, 0.863), 0 0 0.5px rgba(21, 61, 1, 0.863), 0 0 0.6px rgba(21, 61, 1, 0.863), 0 0 0.7px rgba(21, 61, 1, 0.863);
+    }
+    
+    to {
+      text-shadow: 0 0 0.4px rgba(162, 245, 121, 0.804), 0 0 0.5px rgba(162, 245, 121, 0.804), 0 0 0.6px rgba(162, 245, 121, 0.804), 0 0 0.7px rgba(162, 245, 121, 0.804), 0 0 8px rgba(162, 245, 121, 0.804), 0 0 0.9px rgba(162, 245, 121, 0.804), 0 0 1.0px rgba(162, 245, 121, 0.804);
+    }
 }
