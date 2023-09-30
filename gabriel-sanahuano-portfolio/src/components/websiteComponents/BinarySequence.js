@@ -8,6 +8,7 @@ function BinarySequenceToTheLeft ({children}) {
     const x = useTransform(baseX, (v) => `${wrap(-105, 80, v)}%`);
     useAnimationFrame((t, delta) => {
         let moveBy = -9 * (delta / 1000);
+        //Making a comment
 
         baseX.set(baseX.get() + moveBy);
     });
