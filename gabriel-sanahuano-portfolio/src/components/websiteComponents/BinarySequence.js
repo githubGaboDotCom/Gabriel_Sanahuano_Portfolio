@@ -1,17 +1,27 @@
-import {useMotionValue, useTransform, motion, useAnimationFrame} from 'framer-motion';
+import {useMotionValue, useTransform, motion} from 'framer-motion';
 import {wrap} from '@motionone/utils';
-import { useEffect, useRef } from 'react';
 import '../styles/css/BinarySequence.css';
 
 function BinarySequenceToTheLeft ({children}) { 
 
     const baseX = useMotionValue(-100);
     const x = useTransform(baseX, (v) => `${wrap(-105, 80, v)}%`);
-    useAnimationFrame((t, delta) => {
-        let moveBy = -9 * (delta / 1000);
+    
+    let last = new Date().getTime();
+    let initialTime = new Date().getTime();
 
+    function moveByToTheLeft() {
+        const now = new Date().getTime();
+        let deltaTime = now - last;
+        last = now; 
+        let moveBy = -2 * (deltaTime / 1000);
         baseX.set(baseX.get() + moveBy);
-    });
+        if (now < initialTime + 18500) {
+            window.requestAnimationFrame(moveByToTheLeft);
+        }
+    }
+
+    window.requestAnimationFrame(moveByToTheLeft);
 
     return (
         <div className = 'NumbersContainer'>
@@ -35,32 +45,21 @@ function BinarySequenceToTheRight ({children}) {
 
     const baseX = useMotionValue(95);
     const x = useTransform(baseX, (v) => `${wrap(-100, 100, v)}%`);
-    let initial = new Date().getTime();
-    const last = useRef(initial);
-    let moveBy = useRef(0);
-    baseX.set(baseX.get() + moveBy);
-    
-    // useAnimationFrame((t, delta) => {
-    //     console.log(delta);
-    //     const now = new Date().getTime();
-    //     let deltaTime = now - last;
-    //     last = now;
-    //     let moveBy = 9 * (deltaTime / 1000);
-    //     console.log(moveBy);
-    //     baseX.set(baseX.get() + moveBy);
+    let last = new Date().getTime();
+    let initialTime = new Date().getTime();
 
-    // });
-
-    useEffect(() => {
+    function moveByToTheRight() {
         const now = new Date().getTime();
-        let deltaTime = now - last.current;
-        last.current = now;
-        console.log(deltaTime);
-        let moveUpdate = 9 * (deltaTime / 1000);
-        moveBy.current = moveUpdate;
-        // console.log(moveBy);
-        // baseX.set(baseX.get() + moveBy);
-    }, []);
+        let deltaTime = now - last;
+        last = now; 
+        let moveBy = 2 * (deltaTime / 1000);
+        baseX.set(baseX.get() + moveBy);
+        if (now < initialTime + 19500) {
+            window.requestAnimationFrame(moveByToTheRight);
+        }
+    }
+    
+    window.requestAnimationFrame(moveByToTheRight);
 
     return (
         <div className = 'NumbersContainer'>
