@@ -1,6 +1,6 @@
 import '../styles/css/HomePage.css';
 import WebsiteBackgroundVideo from '../websiteComponents/WebsiteBackgroundVideo';
-import AudioPromptMessage from './AudioPromptMessagePage';
+import AudioPromptMessage from '../websiteComponents/AudioPromptMessagePage';
 import React from 'react';
 import BinarySequence from '../websiteComponents/BinarySequence';
 
