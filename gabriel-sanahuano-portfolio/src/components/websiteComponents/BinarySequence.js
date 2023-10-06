@@ -54,7 +54,7 @@ function BinarySequenceToTheRight ({children}) {
         last = now; 
         let moveBy = 2 * (deltaTime / 1000);
         baseX.set(baseX.get() + moveBy);
-        if (now < initialTime + 19500) {
+        if (now < initialTime + 20000) {
             window.requestAnimationFrame(moveByToTheRight);
         }
     }
