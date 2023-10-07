@@ -1,5 +1,7 @@
-import '../styles/css/NavigationBar.css';
+import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import '../styles/css/NavigationBar.css';
+
 
 function NavigationBar () {
 
@@ -12,9 +14,9 @@ function NavigationBar () {
     }, []);
     
     return (
-        <div className="NavigationBarCSS">
+        <motion.div className="NavigationBarCSS">
             {showNavigationBar && <h1>Testing this component!</h1>}
-        </div>
+        </motion.div>
     );
 }
 
