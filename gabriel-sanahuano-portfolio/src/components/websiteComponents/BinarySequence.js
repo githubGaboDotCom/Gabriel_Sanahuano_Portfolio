@@ -3,20 +3,25 @@ import NavigationBar from './NavigationBar';
 import {wrap} from '@motionone/utils';
 import '../styles/css/BinarySequence.css';
 
+let animationToTheLeftDone = false;
+let animationToTheRightDone = false;
+
 function BinarySequenceToTheLeft ({children}) { 
 
-    const baseX = useMotionValue(100);
-    const x = useTransform(baseX, (v) => `${wrap(-101, 100, v)}%`);
-    
+    const baseX = useMotionValue(100); 
+    const x = useTransform(baseX, (v) => `${wrap(-101, 100, v)}%`); 
     let last = new Date().getTime();
 
     function moveByToTheLeft() {
         const now = new Date().getTime();
         let deltaTime = now - last;
         last = now; 
-        let moveBy = -2.5 * (deltaTime / 1000);
+        let moveBy = -3.5 * (deltaTime / 1000);
         baseX.set(baseX.get() + moveBy);
         const floatX = parseFloat(x.get());
+        if (floatX < -100.0) {
+            animationToTheLeftDone = true;
+        }
         if (floatX > -100.0) {
             window.requestAnimationFrame(moveByToTheLeft);
         }
@@ -52,9 +57,12 @@ function BinarySequenceToTheRight ({children}) {
         const now = new Date().getTime();
         let deltaTime = now - last;
         last = now; 
-        let moveBy = 2 * (deltaTime / 1000);
+        let moveBy = 3 * (deltaTime / 1000);
         baseX.set(baseX.get() + moveBy);
         const floatX = parseFloat(x.get());
+        if (floatX > 100.0) {
+            animationToTheRightDone = true;
+        }
         if (floatX < 100.0) {
             window.requestAnimationFrame(moveByToTheRight);
         }
@@ -85,7 +93,7 @@ function BinarySequence () {
     return (
         <div>
             <div>
-                <NavigationBar />
+                <NavigationBar animationToTheLeftDone = {animationToTheLeftDone}/>
             </div>
             <section>
                 <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>

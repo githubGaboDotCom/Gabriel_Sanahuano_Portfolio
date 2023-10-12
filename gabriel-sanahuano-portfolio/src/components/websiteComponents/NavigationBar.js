@@ -3,15 +3,20 @@ import { useState, useEffect } from 'react';
 import '../styles/css/NavigationBar.css';
 
 
-function NavigationBar () {
+function NavigationBar (animationToTheLeftDone) {
 
     const [showNavigationBar, setShowNavigationBar] = useState(false);
 
-    useEffect(() => {
-        setInterval(() => {
-            setShowNavigationBar(!showNavigationBar);
-        }, 22000);
-    }, []);
+    if (animationToTheLeftDone == true){
+        setShowNavigationBar(!showNavigationBar);
+    }
+    console.log(animationToTheLeftDone);
+    console.log(showNavigationBar);
+    // useEffect(() => {
+    //     setInterval(() => {
+    //         setShowNavigationBar(!showNavigationBar);
+    //     }, 22000);
+    // }, []);
     
     return (
         <motion.div className="NavigationBarCSS">
