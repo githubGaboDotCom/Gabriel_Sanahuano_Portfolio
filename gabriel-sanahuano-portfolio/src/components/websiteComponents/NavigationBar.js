@@ -7,16 +7,12 @@ function NavigationBar (animationToTheLeftDone) {
 
     const [showNavigationBar, setShowNavigationBar] = useState(false);
 
-    if (animationToTheLeftDone == true){
-        setShowNavigationBar(!showNavigationBar);
-    }
-    console.log(animationToTheLeftDone);
-    console.log(showNavigationBar);
-    // useEffect(() => {
-    //     setInterval(() => {
-    //         setShowNavigationBar(!showNavigationBar);
-    //     }, 22000);
-    // }, []);
+    useEffect(() => {
+        setInterval(() => {
+            setShowNavigationBar(!showNavigationBar);
+        }, 16000);
+         // eslint-disable-next-line
+    }, []);
     
     return (
         <motion.div className="NavigationBarCSS">

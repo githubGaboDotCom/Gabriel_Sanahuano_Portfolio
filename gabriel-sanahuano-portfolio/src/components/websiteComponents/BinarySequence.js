@@ -1,10 +1,8 @@
 import {useMotionValue, useTransform, motion} from 'framer-motion';
 import NavigationBar from './NavigationBar';
+import ResumeInfo from './ResumeInfo';
 import {wrap} from '@motionone/utils';
 import '../styles/css/BinarySequence.css';
-
-let animationToTheLeftDone = false;
-let animationToTheRightDone = false;
 
 function BinarySequenceToTheLeft ({children}) { 
 
@@ -19,9 +17,7 @@ function BinarySequenceToTheLeft ({children}) {
         let moveBy = -3.5 * (deltaTime / 1000);
         baseX.set(baseX.get() + moveBy);
         const floatX = parseFloat(x.get());
-        if (floatX < -100.0) {
-            animationToTheLeftDone = true;
-        }
+
         if (floatX > -100.0) {
             window.requestAnimationFrame(moveByToTheLeft);
         }
@@ -60,9 +56,7 @@ function BinarySequenceToTheRight ({children}) {
         let moveBy = 3 * (deltaTime / 1000);
         baseX.set(baseX.get() + moveBy);
         const floatX = parseFloat(x.get());
-        if (floatX > 100.0) {
-            animationToTheRightDone = true;
-        }
+        
         if (floatX < 100.0) {
             window.requestAnimationFrame(moveByToTheRight);
         }
@@ -93,7 +87,8 @@ function BinarySequence () {
     return (
         <div>
             <div>
-                <NavigationBar animationToTheLeftDone = {animationToTheLeftDone}/>
+                <NavigationBar/>
+                <ResumeInfo/>
             </div>
             <section>
                 <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
