@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import '../styles/css/NavigationBar.css';
 
 
-function NavigationBar (animationToTheLeftDone) {
+function NavigationBar () {
 
     const [showNavigationBar, setShowNavigationBar] = useState(false);
 
