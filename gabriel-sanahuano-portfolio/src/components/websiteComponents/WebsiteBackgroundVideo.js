@@ -4,7 +4,7 @@ function WebsiteBackgroundVideo () {
 
     return (
         <div>
-            <video src="/backgroundVideoNightlyEarth.mp4" autoPlay loop muted />
+            <video src="/backgroundVideoCyberEarth.mp4" autoPlay loop muted />
         </div>
     );
 }
