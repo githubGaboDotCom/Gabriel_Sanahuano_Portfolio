@@ -31,6 +31,7 @@ function AudioPromptMessage () {
                         text: 'Thank you for visiting my portfolio, I hope you can have the best experience! 😃',
                         icon: 'success',
                         color: '#fff',
+                        confirmButtonColor: 'rgb(117 201 68)',
                         background: 'rgba(54, 70, 93, 0.99)',
                         allowOutsideClick: false 
                     })
@@ -42,6 +43,7 @@ function AudioPromptMessage () {
                         text: 'Thank you for visiting my portfolio, I hope you can have the best experience! 🙂',
                         icon: 'info',
                         color: '#fff',
+                        confirmButtonColor: '#3fc3ee',
                         background: 'rgba(54, 70, 93, 0.99)',
                         allowOutsideClick: false 
                     })
