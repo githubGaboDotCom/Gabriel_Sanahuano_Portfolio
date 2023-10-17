@@ -3,13 +3,16 @@ import '../styles/css/BiographyWindow.css';
 
 function BiographyWindow () {
     return (
-        <motion.div 
-            className = 'MainContainer' 
-            initial = {{opacity: 0, scale: 0.5}}
+        <div className="ParentContainer">
+            <motion.div className = 'MainContainer' 
+            initial = {{opacity: 0, scale: 0.8}}
             animate = {{opacity: 1, scale: 1}}
-            transition = {{duration: 0.8, delay: 16, ease: [0, 0.71, 0.2, 1.01]}}>
-            <p>This is a test!</p>
-        </motion.div>
+            transition = {{duration: 0.5, delay: 16, ease: [0, 0.71, 0.2, 1.01]}}>
+                <div className="ImageContainer">
+                    <img src="/pictureResume.jpeg" alt="Gabriel's Pic"/>
+                </div>
+            </motion.div>
+        </div>
     );
 }
 
