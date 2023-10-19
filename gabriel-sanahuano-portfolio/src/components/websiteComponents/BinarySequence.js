@@ -86,10 +86,10 @@ function BinarySequence () {
 
     return (
         <div>
-            <div>
+            {/* <div>
                 <NavigationBar/>
                 <BiographyWindow/>
-            </div>
+            </div> */}
             <section>
                 <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
                 <BinarySequenceToTheRight>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheRight>
