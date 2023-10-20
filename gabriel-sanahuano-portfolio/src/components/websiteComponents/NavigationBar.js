@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { useState} from 'react';
+import { useState, useEffect} from 'react';
 import BiographyWindow from './BiographyWindow';
 import ResumeInfo from './ResumeInfo';
 import MySkills from './MySkills';
@@ -14,6 +14,12 @@ function NavigationBar () {
     const [showSkills, setShowSkills] = useState(false);
     const [showProjects, setShowProjects] = useState(false);
     const [showContactMe, setShowContactMe] = useState(false);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setShowBiography(true);
+        }, 16000);
+    }, []);
 
     return (
         <div>
