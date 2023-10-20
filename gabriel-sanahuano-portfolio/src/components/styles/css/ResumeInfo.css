@@ -1,0 +1,14 @@
+.ResumeParentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ResumeMainContainer {
+    width: 850px;
+    height: 450px;
+    background-color: rgb(55, 101, 40, 0.4);
+    position: absolute;
+    top: 17%;
+    color: white;
+    border: 3px solid whitesmoke;
+}

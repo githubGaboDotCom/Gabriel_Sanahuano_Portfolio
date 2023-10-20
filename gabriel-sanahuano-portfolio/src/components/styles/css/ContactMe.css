@@ -1,9 +1,9 @@
-.MyProjectsParentContainer {
+.ContactMeParentContainer {
     display: flex;
     justify-content: center;
 }
 
-.MyProjectsMainContainer {
+.ContactMeMainContainer {
     width: 850px;
     height: 450px;
     background-color: rgb(55, 101, 40, 0.4);
