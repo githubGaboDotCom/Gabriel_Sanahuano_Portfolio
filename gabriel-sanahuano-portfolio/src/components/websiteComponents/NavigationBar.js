@@ -29,35 +29,35 @@ function NavigationBar () {
                 animate = {{opacity: 1, scale: 1}}
                 transition = {{duration: 0.5, delay: 16, ease: [0, 0.71, 0.2, 1.01]}}>
                     <ul>
-                        <li className='active' onClick={() => {
+                        <li className={showBiography ? 'active' : ''} onClick={() => {
                             setShowBiography(true)
                             setShowResume(false)
                             setShowSkills(false)
                             setShowProjects(false)
                             setShowContactMe(false)
                             }}>Biography</li>
-                        <li onClick={() => {
+                        <li className={showResume ? 'active' : ''} onClick={() => {
                             setShowBiography(false)
                             setShowResume(true)
                             setShowSkills(false)
                             setShowProjects(false)
                             setShowContactMe(false)
                             }}>Resume</li>
-                        <li onClick={() => {
+                        <li className={showSkills ? 'active' : ''} onClick={() => {
                             setShowBiography(false)
                             setShowResume(false)
                             setShowSkills(true)
                             setShowProjects(false)
                             setShowContactMe(false)
                             }}>Skills</li>
-                        <li onClick={() => {
+                        <li className={showProjects ? 'active' : ''} onClick={() => {
                             setShowBiography(false)
                             setShowResume(false)
                             setShowSkills(false)
                             setShowProjects(true)
                             setShowContactMe(false)
                             }}>Projects</li>
-                        <li onClick={() => {
+                        <li className={showContactMe ? 'active' : ''} onClick={() => {
                             setShowBiography(false)
                             setShowResume(false)
                             setShowSkills(false)

@@ -1,6 +1,4 @@
 import {useMotionValue, useTransform, motion} from 'framer-motion';
-import NavigationBar from './NavigationBar';
-import BiographyWindow from './BiographyWindow';
 import {wrap} from '@motionone/utils';
 import '../styles/css/BinarySequence.css';
 
@@ -86,10 +84,6 @@ function BinarySequence () {
 
     return (
         <div>
-            {/* <div>
-                <NavigationBar/>
-                <BiographyWindow/>
-            </div> */}
             <section>
                 <BinarySequenceToTheLeft>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheLeft>
                 <BinarySequenceToTheRight>1 0 1 1 0 0 1 0 1 1</BinarySequenceToTheRight>
