@@ -16,6 +16,7 @@
     "styled-components": "^5.3.8",
     "sweetalert2": "^11.7.3",
     "sweetalert2-react-content": "^5.0.7",
+    "typed.js": "^2.0.16",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
