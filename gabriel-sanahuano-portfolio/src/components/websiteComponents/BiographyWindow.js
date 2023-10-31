@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Typed from "typed.js";
 import '../styles/css/BiographyWindow.css';
 
 function BiographyWindow () {
