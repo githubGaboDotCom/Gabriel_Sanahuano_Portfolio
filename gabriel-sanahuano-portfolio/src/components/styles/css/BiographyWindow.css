@@ -11,6 +11,20 @@
     top: 17%;
     color: white;
     border: 3px solid whitesmoke;
+    z-index: 1;
+}
+
+.ContentContainer {
+    display: flex;
+    width: 100%;
+}
+
+.TextContainer {
+    width: 90%;
+}
+
+#Title {
+    text-align: center;
 }
 
 img {
