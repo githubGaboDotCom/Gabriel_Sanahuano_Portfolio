@@ -19,12 +19,16 @@
     width: 100%;
 }
 
-.TextContainer {
+.TitleContainer {
     width: 90%;
 }
 
 #Title {
     text-align: center;
+}
+
+#Text {
+    text-align: justify;
 }
 
 img {
