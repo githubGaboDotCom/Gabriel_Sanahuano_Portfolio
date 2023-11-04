@@ -16,7 +16,7 @@ function BiographyWindow () {
         });
 
         const typedText = new Typed(text.current, {
-            strings: ['Sed ut perspiciatis unde omnis \n This is another string'],
+            strings: ['Sed ut perspiciatis unde omnis This is another string'],
             typeSpeed: 30,
             showCursor: false
         });
