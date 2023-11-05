@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect} from 'react';
-import BiographyWindow from './BiographyWindow';
+import AboutMeWindow from './AboutMeWindow';
 import ResumeInfo from './ResumeInfo';
 import MySkills from './MySkills';
 import MyProjects from './MyProjects';
@@ -9,7 +9,7 @@ import '../styles/css/NavigationBar.css';
 
 
 function NavigationBar () {
-    const [showBiography, setShowBiography] = useState(false);
+    const [showAboutMe, setShowAboutMe] = useState(false);
     const [showResume, setShowResume] = useState(false);
     const [showSkills, setShowSkills] = useState(false);
     const [showProjects, setShowProjects] = useState(false);
@@ -17,7 +17,7 @@ function NavigationBar () {
 
     useEffect(() => {
         setTimeout(() => {
-            setShowBiography(true);
+            setShowAboutMe(true);
         }, 16000);
     }, []);
 
@@ -29,36 +29,36 @@ function NavigationBar () {
                 animate = {{opacity: 1, scale: 1}}
                 transition = {{duration: 0.5, delay: 16, ease: [0, 0.71, 0.2, 1.01]}}>
                     <ul>
-                        <li className={showBiography ? 'active' : ''} onClick={() => {
-                            setShowBiography(true)
+                        <li className={showAboutMe ? 'active' : ''} onClick={() => {
+                            setShowAboutMe(true)
                             setShowResume(false)
                             setShowSkills(false)
                             setShowProjects(false)
                             setShowContactMe(false)
-                            }}>Biography</li>
+                            }}>About Me</li>
                         <li className={showResume ? 'active' : ''} onClick={() => {
-                            setShowBiography(false)
+                            setShowAboutMe(false)
                             setShowResume(true)
                             setShowSkills(false)
                             setShowProjects(false)
                             setShowContactMe(false)
                             }}>Resume</li>
                         <li className={showSkills ? 'active' : ''} onClick={() => {
-                            setShowBiography(false)
+                            setShowAboutMe(false)
                             setShowResume(false)
                             setShowSkills(true)
                             setShowProjects(false)
                             setShowContactMe(false)
                             }}>Skills</li>
                         <li className={showProjects ? 'active' : ''} onClick={() => {
-                            setShowBiography(false)
+                            setShowAboutMe(false)
                             setShowResume(false)
                             setShowSkills(false)
                             setShowProjects(true)
                             setShowContactMe(false)
                             }}>Projects</li>
                         <li className={showContactMe ? 'active' : ''} onClick={() => {
-                            setShowBiography(false)
+                            setShowAboutMe(false)
                             setShowResume(false)
                             setShowSkills(false)
                             setShowProjects(false)
@@ -67,7 +67,7 @@ function NavigationBar () {
                     </ul>            
                 </motion.div>
             </div>
-            {showBiography && <BiographyWindow />}
+            {showAboutMe && <AboutMeWindow />}
             {showResume && <ResumeInfo />}
             {showSkills && <MySkills />}
             {showProjects && <MyProjects />}
