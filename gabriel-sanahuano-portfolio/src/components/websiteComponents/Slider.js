@@ -5,8 +5,15 @@ export const Slider = [
       Date: "Jan 2019 - Dec 2022",
       University: "Brigham Young University - Idaho",
       Location: "Rexburg, Idaho, United States",
-      Coursework: "Object-Oriented Software Development, Web Engineering I, Data Structures, Database & Design Development, Software Design and Development, Web Engineering II, Software Engineering III, Comp. Communication &Networks, Systems Security I, Discrete Mathematics I, Data Science Programming, Machine Learning and Data Mining, Computer Security, Parallelism and Concurrency, Big Data Programming and Analytics, Algorithms & Complexity, Linear Algebra, Applied Calculus for Data Analysis, Clojure.",
-      Certificates: "Computer Programming · Machine Learning Fundamentals · CISCO - Introduction to Cybersecurity."
+      Coursework: "Introduction to Software Development, Object-Oriented Software Development, Fundamentals of Digital Systems,  Web Engineering I, Data Structures, Technical Documentation, Database Design & Development, Software Design & Development, Web Engineering II, Software Engineering III, Comp. Communication & Networks, Networking, Systems Security I, Discrete Mathematics I, Computer Security, Parallelism and Concurrency, Algorithms & Complexity, Introduction to Robotics, Clojure Language.",
+    },
+    {
+      EducationTitle: "Education",
+      Degree: "Certificate in Machine Learning Fundamentals",
+      Date: "Jul 2021 - Jul 2022",
+      University: "Brigham Young University - Idaho",
+      Location: "Rexburg, Idaho, United States",
+      Coursework: "Data Science Programming, Machine Learning and Data Mining, Big Data Programming and Analytics, Linear Algebra, Applied Calculus for Data Analysis.",
     },
     {
        ExperienceTitle: "Work Experience",
