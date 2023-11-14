@@ -81,7 +81,7 @@ export const Slider = [
         "other network devices.",
         FifthItem: "\u2022 Experience with Microsoft Active Directory, group policies, user profiles within " +
         "Windows, imaging software, and file/security permissions.",
-        SixthItem: "Experience supporting Microsoft cloud-based back-office systems including Azure " + 
+        SixthItem: "\u2022 Experience supporting Microsoft cloud-based back-office systems including Azure " + 
         "AD, SharePoint/OneDrive, Security & Compliance, ATP, InTune, AutoPilot, and Teams."    
      },
      {
