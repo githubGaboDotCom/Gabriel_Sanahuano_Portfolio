@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 .MySkillsParentContainer {
     display: flex;
     justify-content: center;
@@ -12,4 +14,13 @@
     color: white;
     border: 3px solid whitesmoke;
     z-index: 1;
+}
+
+.TitleSkillsContainer {
+    text-align: center;
+    font-family: 'Special Elite';
+}
+
+.SubTitleMySkillsContainer {
+    font-family: 'Special Elite';
 }

@@ -24,6 +24,10 @@ function MySkills () {
             initial = {{opacity: 0, scale: 0.9}}
             animate = {{opacity: 1, scale: 1}}
             transition = {{duration: 0.5, delay: 0.5, ease: [0, 0.71, 0.2, 1.01]}}>
+                <div className="TitleSkillsContainer">
+                    <h2>My Skills</h2>
+                </div>
+                <h3 className="SubTitleMySkillsContainer">Programming Skills</h3>
                 <motion.svg
                 width='600'
                 height='600'
