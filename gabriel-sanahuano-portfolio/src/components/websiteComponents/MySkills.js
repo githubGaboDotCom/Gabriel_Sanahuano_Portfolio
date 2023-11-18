@@ -9,13 +9,12 @@ function MySkills () {
     const draw = {
         hidden: {pathLength: 0, opacity: 0},
         visible: (i) => {
-            const delay = 1 + i * 0.5;
+            const delay = i;
             return {
                 pathLength: 0.8,
                 opacity: 0.7,
                 transition: {
-                    pathLength: {delay, type: 'spring', duration: 3.5, bounce: 0},
-                    opacity: {delay, duration: 0.01}
+                    pathLength: {delay, type: 'spring', duration: 3, bounce: 0},
                 }
             }
         }
@@ -50,9 +49,45 @@ function MySkills () {
                             fill='rgb(55, 101, 40, 0.5)'
                             stroke-width='15'
                             variants={draw}
-                            custom={1}/>
-                                <motion.text x='72' y='110' fill='white' fontSize='40px' opacity='0.7'>80%</motion.text>
+                            custom={0.5}/>
+                                <motion.text x='72' y='110' fill='white' fontSize='40px' opacity='0.7'>75%</motion.text>
                                 <motion.text x='80' y='150' fill='white' fontSize='23px'>C++</motion.text>
+                        </motion.svg>
+                        <motion.svg
+                        width='200'
+                        height='200'
+                        viewBox='0 0 200 200'
+                        initial='hidden'
+                        animate='visible'>
+                            <motion.circle 
+                            cx='100'
+                            cy='100'
+                            r='80'
+                            stroke='#1aff1a'
+                            fill='rgb(55, 101, 40, 0.5)'
+                            stroke-width='15'
+                            variants={draw}
+                            custom={0.5}/>
+                                <motion.text x='72' y='110' fill='white' fontSize='40px' opacity='0.7'>80%</motion.text>
+                                <motion.text x='80' y='150' fill='white' fontSize='23px'>Java</motion.text>
+                        </motion.svg>
+                        <motion.svg
+                        width='200'
+                        height='200'
+                        viewBox='0 0 200 200'
+                        initial='hidden'
+                        animate='visible'>
+                            <motion.circle 
+                            cx='100'
+                            cy='100'
+                            r='80'
+                            stroke='#1aff1a'
+                            fill='rgb(55, 101, 40, 0.5)'
+                            stroke-width='15'
+                            variants={draw}
+                            custom={0.5}/>
+                                <motion.text x='272' y='110' fill='white' fontSize='40px' opacity='0.7'>80%</motion.text>
+                                <motion.text x='280' y='150' fill='white' fontSize='23px'>C++</motion.text>
                         </motion.svg>
                     </div>
                     <div className='rightArrowContainer'>
