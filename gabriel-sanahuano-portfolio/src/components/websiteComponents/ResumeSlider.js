@@ -1,4 +1,4 @@
-export const Slider = [
+export const ResumeSlider = [
     {
       Title: "Education",
       SubTitle: "Bachelor of Science in Computer Science",

@@ -31,6 +31,7 @@
 
 .SubTitleMySkillsContainer {
     font-family: 'Special Elite';
+    margin-left: 25px;
 }
 
 .leftArrowContainer {
@@ -57,4 +58,65 @@
 .rightArrow {
     cursor: pointer;
     font-size: 40px;
+}
+
+.SvgContainer {
+    margin-left: 15px;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slideActive {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+
+.SkillNamesContainer {
+    display: flex;
+    font-family: 'Special Elite';
+}
+
+.SkillNamesContainer {
+    width: 650px;
+    margin-left: 30px;
+}
+
+.SkillNamesContainer p {
+    font-size: 20px;
+    padding: 10px 15px;
+    border: 3px ridge rgb(14, 153, 14);
+    background-color: rgb(55, 101, 40, 0.7);
+}
+
+.SkillNameOne {
+    width: 220px;
+}
+
+.SkillNameOne p {
+    max-width: 135px;
+    text-align: center;
+}
+
+.SkillNameTwo {
+    width: 220px;
+    margin-left: 5px;
+}
+
+.SkillNameTwo p {
+    max-width: 135px;
+    text-align: center;
+}
+
+.SkillNameThree { 
+    width: 220px;
+    margin-left: 5px;
+}
+
+.SkillNameThree p {
+    max-width: 135px;
+    text-align: center;
 }

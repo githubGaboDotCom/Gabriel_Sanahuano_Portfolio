@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import '../styles/css/ResumeInfo.css';
-import { Slider } from './Slider';
+import { ResumeSlider} from './ResumeSlider';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
@@ -9,7 +9,7 @@ import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 function ResumeInfo () {
 
     const [current, setCurrent] = useState(0);
-    const sliderLength = Slider.length;
+    const sliderLength = ResumeSlider.length;
 
     const nextSlide = () => {
         setCurrent(current === sliderLength - 1 ? 0 : current + 1);
@@ -33,7 +33,7 @@ function ResumeInfo () {
                         <FontAwesomeIcon className='leftArrow' icon= {faCircleArrowLeft} onClick={previousSlide} />
                     </div>
                     <div className='EducationAndJobExperience'>
-                    {Slider.map((slide, index) => {
+                    {ResumeSlider.map((slide, index) => {
                         return (
                             <div className={index === current ? "slideActive" : "slide"} key={index}>
                                 {
