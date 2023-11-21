@@ -1,6 +1,6 @@
 export const MySkillsSlider = [
     {
-        SkillsType: 'Programming, scripting, and markup languages',
+        SkillsType: 'Programming, Scripting, and Markup Languages',
         FirstSkillsPercentage: '90%',
         FirstSkillsPercentageDecimal: 0.9,
         FirstSkillName: 'JavaScript',
@@ -13,7 +13,7 @@ export const MySkillsSlider = [
 
     },
     {
-        SkillsType: 'Programming, scripting, and markup languages',
+        SkillsType: 'Programming, Scripting, and Markup Languages',
         FirstSkillsPercentage: '90%',
         FirstSkillsPercentageDecimal: 0.9,
         FirstSkillName: 'SQL',
@@ -25,7 +25,7 @@ export const MySkillsSlider = [
         ThirdSkillName: 'C++'
     },
     {
-        SkillsType: 'Programming, scripting, and markup languages',
+        SkillsType: 'Programming, Scripting, and Markup Languages',
         FirstSkillsPercentage: '50%',
         FirstSkillsPercentageDecimal: 0.5,
         FirstSkillName: 'PHP',
@@ -47,5 +47,114 @@ export const MySkillsSlider = [
         ThirdSkillsPercentage: '60%',
         ThirdSkillsPercentageDecimal: 0.60,
         ThirdSkillName: 'Microsoft SQL Server'
+    },
+    {
+        SkillsType: 'Web Frameworks and Technologies',
+        FirstSkillsPercentage: '85%',
+        FirstSkillsPercentageDecimal: 0.85,
+        FirstSkillName: 'Node.js',
+        SecondSkillsPercentage: '90%',
+        SecondSkillsPercentageDecimal: 0.9,
+        SecondSkillName: 'React.js',
+        ThirdSkillsPercentage: '50%',
+        ThirdSkillsPercentageDecimal: 0.5,
+        ThirdSkillName: 'Spring Boot'
+    },
+    {
+        SkillsType: 'Automation Frameworks',
+        FirstSkillsPercentage: '80%',
+        FirstSkillsPercentageDecimal: 0.8,
+        FirstSkillName: 'Selenium',
+        SecondSkillsPercentage: '80%',
+        SecondSkillsPercentageDecimal: 0.8,
+        SecondSkillName: 'Cypress',
+        ThirdSkillsPercentage: '30%',
+        ThirdSkillsPercentageDecimal: 0.3,
+        ThirdSkillName: 'Cucumber'
+    },
+    {
+        SkillsType: 'Other Frameworks and Libraries',
+        FirstSkillsPercentage: '60%',
+        FirstSkillsPercentageDecimal: 0.6,
+        FirstSkillName: 'Apache Spark',
+        SecondSkillsPercentage: '70%',
+        SecondSkillsPercentageDecimal: 0.7,
+        SecondSkillName: 'Pandas',
+        ThirdSkillsPercentage: '50%',
+        ThirdSkillsPercentageDecimal: 0.50,
+        ThirdSkillName: 'Tensorflow'
+    },
+    {
+        SkillsType: 'Other Tools',
+        FirstSkillsPercentage: '95%',
+        FirstSkillsPercentageDecimal: 0.95,
+        FirstSkillName: 'NPM',
+        SecondSkillsPercentage: '65%',
+        SecondSkillsPercentageDecimal: 0.65,
+        SecondSkillName: 'Docker',
+        ThirdSkillsPercentage: '75%',
+        ThirdSkillsPercentageDecimal: 0.75,
+        ThirdSkillName: 'PIP'
+    },
+    {
+        SkillsType: 'Integrated Development Environment',
+        FirstSkillsPercentage: '90%',
+        FirstSkillsPercentageDecimal: 0.90,
+        FirstSkillName: 'Visual Studio Code',
+        SecondSkillsPercentage: '70%',
+        SecondSkillsPercentageDecimal: 0.70,
+        SecondSkillName: 'Eclipse',
+        ThirdSkillsPercentage: '55%',
+        ThirdSkillsPercentageDecimal: 0.55,
+        ThirdSkillName: 'Android Studio'
+    },
+    {
+        SkillsType: 'Integrated Development Environment',
+        FirstSkillsPercentage: '60%',
+        FirstSkillsPercentageDecimal: 0.60,
+        FirstSkillName: 'Visual Studio',
+        SecondSkillsPercentage: '80%',
+        SecondSkillsPercentageDecimal: 0.80,
+        SecondSkillName: 'Jupyter Notebook',
+        ThirdSkillsPercentage: '70%',
+        ThirdSkillsPercentageDecimal: 0.70,
+        ThirdSkillName: 'Notepad++'
+    },
+    {
+        SkillsType: 'Asynchronous Tools',
+        FirstSkillsPercentage: '95%',
+        FirstSkillsPercentageDecimal: 0.95,
+        FirstSkillName: 'Azure Devops',
+        SecondSkillsPercentage: '70%',
+        SecondSkillsPercentageDecimal: 0.70,
+        SecondSkillName: 'Trello',
+        ThirdSkillsPercentage: '60%',
+        ThirdSkillsPercentageDecimal: 0.6,
+        ThirdSkillName: 'Jira'
+    },
+    {
+        SkillsType: 'Synchronous Tools',
+        FirstSkillsPercentage: '100%',
+        FirstSkillsPercentageDecimal: 1.0,
+        FirstSkillName: 'Microsoft Teams',
+        SecondSkillsPercentage: '90%',
+        SecondSkillsPercentageDecimal: 0.9,
+        SecondSkillName: 'Slack',
+        ThirdSkillsPercentage: '90%',
+        ThirdSkillsPercentageDecimal: 0.9,
+        ThirdSkillName: 'Zoom'
+    },
+    {
+        SkillsType: 'Operating System',
+        FirstSkillsPercentage: '100%',
+        FirstSkillsPercentageDecimal: 1.0,
+        FirstSkillName: 'Windows',
+        SecondSkillsPercentage: '90%',
+        SecondSkillsPercentageDecimal: 0.9,
+        SecondSkillName: 'MacOS',
+        ThirdSkillsPercentage: '55%',
+        ThirdSkillsPercentageDecimal: 0.55,
+        ThirdSkillName: 'Linux'
     }
+    
 ];
