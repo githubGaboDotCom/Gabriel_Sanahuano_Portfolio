@@ -134,8 +134,8 @@ export const MySkillsSlider = [
     },
     {
         SkillsType: 'Synchronous Tools',
-        FirstSkillsPercentage: '100%',
-        FirstSkillsPercentageDecimal: 1.0,
+        FirstSkillsPercentage: '95%',
+        FirstSkillsPercentageDecimal: 0.95,
         FirstSkillName: 'Microsoft Teams',
         SecondSkillsPercentage: '90%',
         SecondSkillsPercentageDecimal: 0.9,
@@ -146,8 +146,8 @@ export const MySkillsSlider = [
     },
     {
         SkillsType: 'Operating System',
-        FirstSkillsPercentage: '100%',
-        FirstSkillsPercentageDecimal: 1.0,
+        FirstSkillsPercentage: '95%',
+        FirstSkillsPercentageDecimal: 0.95,
         FirstSkillName: 'Windows',
         SecondSkillsPercentage: '90%',
         SecondSkillsPercentageDecimal: 0.9,

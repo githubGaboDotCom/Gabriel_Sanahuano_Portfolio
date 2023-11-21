@@ -69,7 +69,7 @@ function MySkills () {
                                                 stroke-width='15'
                                                 variants={draw}
                                                 custom={slide.FirstSkillsPercentageDecimal}/>
-                                                <motion.text x='67' y='120' fill='white' fontSize='48px' opacity='0.7'>{slide.FirstSkillsPercentage}</motion.text>
+                                                <motion.text x='58' y='120' fill='white' fontSize='48px' opacity='0.7'>{slide.FirstSkillsPercentage}</motion.text>
                                             </motion.svg>
                                             <motion.svg className='SvgContainer'
                                             width='200'
@@ -86,7 +86,7 @@ function MySkills () {
                                                 stroke-width='15'
                                                 variants={draw}
                                                 custom={slide.SecondSkillsPercentageDecimal}/>
-                                                <motion.text x='67' y='120' fill='white' fontSize='48px' opacity='0.7'>{slide.SecondSkillsPercentage}</motion.text>
+                                                <motion.text x='58' y='120' fill='white' fontSize='48px' opacity='0.7'>{slide.SecondSkillsPercentage}</motion.text>
                                             </motion.svg>
                                             <motion.svg className='SvgContainer'
                                             width='200'
@@ -103,7 +103,7 @@ function MySkills () {
                                                 stroke-width='15'
                                                 variants={draw}
                                                 custom={slide.ThirdSkillsPercentageDecimal}/>
-                                                <motion.text x='67' y='120' fill='white' fontSize='48px' opacity='0.7'>{slide.ThirdSkillsPercentage}</motion.text>
+                                                <motion.text x='58' y='120' fill='white' fontSize='48px' opacity='0.7'>{slide.ThirdSkillsPercentage}</motion.text>
                                             </motion.svg>
                                             <div className="SkillNamesContainer">
                                                 <div className="SkillNameOne">
