@@ -39,7 +39,7 @@ export const ResumeSlider = [
        Location: "Riverton, Utah, United States",
        FirstItem: "\u2022 Contributed to over 170 user stories in Azure DevOps by conducting regression " +
        "testing, analyzing results, and submitting observations to the development team.",
-       SecondItem: "\u2022 Participated in design reviews to identify inconsistencies//issues in product " +
+       SecondItem: "\u2022 Participated in design reviews to identify inconsistencies/issues in product " +
        "requirements by interacting with business analysts and developers during the sprint cycle.",
        ThirdItem: "\u2022 Performed integration, End-to-End, performance, regression, sanity, and smoke " +
        "testing on Mobile and Web applications by developing negative and positive test cases according " +

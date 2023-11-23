@@ -11,6 +11,11 @@ function MyProjects () {
                 <div className="ProjectsTitleContainer">
                     <h2>My Projects</h2>
                 </div>
+                <div className="ProjectsSliderContainer">
+                    <video width="320" height="240">
+                        <source src="https://www.youtube.com/watch?v=rY4KFmj9GeE"/>
+                    </video>
+                </div>
             </motion.div>
         </div>
     );
