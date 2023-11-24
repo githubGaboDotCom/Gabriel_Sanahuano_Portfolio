@@ -13,9 +13,64 @@
     top: 17%;
     color: white;
     border: 3px solid whitesmoke;
+    z-index: 1;
 }
 
 .ProjectsTitleContainer {
     text-align: center;
     font-family: 'Special Elite';
+}
+
+.ProjectsSliderContainer {
+    display: flex;
+}
+
+.leftArrowContainer {
+    width: 50px;
+    text-align: center;
+    margin-left: 3px;
+    margin-right: 30px;
+    margin-top: 120px;
+}
+
+.leftArrow {
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.rightArrowContainer {
+    width: 50px; 
+    text-align: center; 
+    margin-left: 45px; 
+    margin-top: 120px;
+    margin-right: 3px;
+}
+
+.rightArrow {
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.ProjectsSliderContentContainer {
+    font-family: 'Special Elite';
+    margin-left: 10px;
+}
+
+.ProjectsSliderContentContainer h3 {
+    margin-top: 9px;
+}
+
+.ProjectsSliderContentContainer a {
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.VideoAndAppDescriptionContainer {
+    display: flex;
+}
+
+.AppDescription {
+    max-width: 260px;
+    margin-left: 10px;
 }

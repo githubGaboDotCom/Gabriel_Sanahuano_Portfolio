@@ -66,7 +66,7 @@ function MySkills () {
                                                 r='80'
                                                 stroke='#1aff1a'
                                                 fill='rgb(55, 101, 40, 0.5)'
-                                                stroke-width='15'
+                                                strokeWidth='15'
                                                 variants={draw}
                                                 custom={slide.FirstSkillsPercentageDecimal}/>
                                                 <motion.text x='58' y='120' fill='white' fontSize='48px' opacity='0.7'>{slide.FirstSkillsPercentage}</motion.text>
@@ -83,7 +83,7 @@ function MySkills () {
                                                 r='80'
                                                 stroke='#1aff1a'
                                                 fill='rgb(55, 101, 40, 0.5)'
-                                                stroke-width='15'
+                                                strokeWidth='15'
                                                 variants={draw}
                                                 custom={slide.SecondSkillsPercentageDecimal}/>
                                                 <motion.text x='58' y='120' fill='white' fontSize='48px' opacity='0.7'>{slide.SecondSkillsPercentage}</motion.text>
@@ -100,7 +100,7 @@ function MySkills () {
                                                 r='80'
                                                 stroke='#1aff1a'
                                                 fill='rgb(55, 101, 40, 0.5)'
-                                                stroke-width='15'
+                                                strokeWidth='15'
                                                 variants={draw}
                                                 custom={slide.ThirdSkillsPercentageDecimal}/>
                                                 <motion.text x='58' y='120' fill='white' fontSize='48px' opacity='0.7'>{slide.ThirdSkillsPercentage}</motion.text>
