@@ -49,7 +49,7 @@ function MyProjects () {
                                                 <p className="AppDescription">{slide.AppDescription}</p>
                                             </div>
                                             <p>{slide.ProjectSkills}</p> 
-                                            <a href={slide.AppWebURL} target="blank">Click here to go to the Pasuca Calculator App <FontAwesomeIcon icon= {faArrowUpRightFromSquare} /></a>
+                                            <a href={slide.AppWebURL} target="blank"> {slide.TextAppLink} <FontAwesomeIcon icon= {faArrowUpRightFromSquare} /></a>
                                             <a href={slide.GithubRepositoryLink} target="blank">Click here to go to the Github Repository <FontAwesomeIcon icon= {faArrowUpRightFromSquare} /></a>
                                         </div>
                                     )
