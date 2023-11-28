@@ -22,5 +22,14 @@ export const MyProjectsSlider = [
         AppWebURL: 'https://github.com/githubGaboDotCom/Sign-Language-Translator-Web-App',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/Sign-Language-Translator-Web-App',
         TextAppLink: 'I am making modifications to this web app. I will post the app link soon.'
+    },
+    {
+        AppName: 'Time Tracking App',
+        WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
+        AppDescription: 'To Be Determined',
+        ProjectSkills: 'Skills: HTML, CSS, JavaScript.',
+        AppWebURL: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
+        GithubRepositoryLink: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
+        TextAppLink: 'Click here to go to the Time Tracking App'
     }
 ];
