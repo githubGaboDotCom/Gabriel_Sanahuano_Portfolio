@@ -31,5 +31,14 @@ export const MyProjectsSlider = [
         AppWebURL: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
         TextAppLink: 'Click here to go to the Time Tracking App'
+    },
+    {
+        AppName: 'Time Tracking App',
+        WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
+        AppDescription: 'To Be Determined',
+        ProjectSkills: 'Skills: HTML, CSS, JavaScript.',
+        AppWebURL: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
+        GithubRepositoryLink: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
+        TextAppLink: 'Click here to go to the Time Tracking App'
     }
 ];
