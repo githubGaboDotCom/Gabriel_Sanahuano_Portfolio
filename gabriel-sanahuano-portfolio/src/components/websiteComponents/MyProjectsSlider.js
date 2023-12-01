@@ -33,12 +33,24 @@ export const MyProjectsSlider = [
         TextAppLink: 'Click here to go to the Time Tracking App'
     },
     {
-        AppName: 'Time Tracking App',
+        AppName: 'Gospel Library App',
+        WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
+        AppDescription: 'This application helps you with your scriptures study. It provides you ' +
+        'with religious books such as the Book of Mormon, Old Testament, New Testament, Doctrine ' +
+        'and Covenants, and The Pearl of Great Price. It has features to highlight interesting ' +
+        'verses and make annotations of your study.',
+        ProjectSkills: 'Skills: Java',
+        AppWebURL: 'https://github.com/githubGaboDotCom/Gospel_Library_App-Project',
+        GithubRepositoryLink: 'https://github.com/githubGaboDotCom/Gospel_Library_App-Project',
+        TextAppLink: 'Link to download the app in the app store.'
+    },
+    {
+        AppName: 'Docker Streamlit App',
         WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
         AppDescription: 'To Be Determined',
         ProjectSkills: 'Skills: HTML, CSS, JavaScript.',
-        AppWebURL: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
-        GithubRepositoryLink: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
-        TextAppLink: 'Click here to go to the Time Tracking App'
+        AppWebURL: 'https://github.com/githubGaboDotCom/Docker-Streamlit_App_with_Heroku',
+        GithubRepositoryLink: 'https://github.com/githubGaboDotCom/Docker-Streamlit_App_with_Heroku',
+        TextAppLink: 'Click here to go to the Docker Streamlit App'
     }
 ];
