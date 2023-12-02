@@ -26,7 +26,11 @@ export const MyProjectsSlider = [
     {
         AppName: 'Time Tracking App',
         WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
-        AppDescription: 'To Be Determined',
+        AppDescription: 'This app provides users with a way and manage their time in a more ' +
+        'efficient way. You can create an account and login to record all your daily activities ' +
+        'and the time you spent doing them. You can also see monthly and annual statistics ' +
+        'on the activities that consume most of your time, and use the app to set goals and be ' +
+        'more productive throughout your day. ',
         ProjectSkills: 'Skills: HTML, CSS, JavaScript.',
         AppWebURL: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
