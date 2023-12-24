@@ -1,1 +1,1 @@
-This is a personal project for the design and creation of my professional portfolio. In it, you can find my professional career, aspirations, and personal projects in the area of software and cybersecurity. Click on the link to see my website!
+The goal of this project is to design and create my software development portfolio. You can go and visit it to learn more about me, my professional career, aspirations, and software projects. The portfolio is still under the development process, but it will be released to the public soon!
