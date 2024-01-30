@@ -34,20 +34,21 @@ export const ResumeSlider = [
     {
        Title: "Work Experience",
        SubTitle: "Software Test Engineer (Internship)",
-       Date: "Jan 2023 - Present",
+       Date: "Jan 2023 - Dec 2023",
        Organization: "The Church of Jesus Christ of Latter-day Saints",
        Location: "Riverton, Utah, United States",
-       FirstItem: "\u2022 Contributed to over 170 user stories in Azure DevOps by conducting regression " +
-       "testing, analyzing results, and submitting observations to the development team.",
-       SecondItem: "\u2022 Participated in design reviews to identify inconsistencies/issues in product " +
-       "requirements by interacting with business analysts and developers during the sprint cycle.",
-       ThirdItem: "\u2022 Performed integration, End-to-End, performance, regression, sanity, and smoke " +
-       "testing on Mobile and Web applications by developing negative and positive test cases according " +
-       "to business requirements.",
-       FourthItem: "\u2022 Created automated test cases using Cypress and executed SQL queries for data " +
-       "validation and debugging.",
-       FifthItem: "\u2022 Assisted with continuous integration and deployment practices in Azure DevOps " +
-       "using an Agile Software Development process.",
+       FirstItem: "\u2022 Contributed to 240 user stories in Azure DevOps through the implementation of " +
+       "QA tests using manual and automated testing and communicated observations to the dev team.",
+       SecondItem: "\u2022 Participated in software design reviews to identify inconsistencies or issues with web " +
+       "application requirements and worked side by side with business analysts and software " +
+       "developers during the life cycle of each software release.",
+       ThirdItem: "\u2022 Performed integration, End-to-End, performance, regression, functional, sanity, smoke, " +
+       "and acceptance testing on Mobile and Web applications by creating and executing test cases based on the " +
+       "business requirements.",
+       FourthItem: "\u2022 Designed and executed automated test cases using Cypress, JavaScript, Mocha, and Chai. " +
+       "I performed data validation by executing SQL queries in Microsoft SQL Server.",
+       FifthItem: "\u2022 Increased the efficiency and accuracy of the software testing process performed on the " +
+       "different web and mobile applications by creating automated pipelines in Azure DevOps.",
        SixthItem: "\u2022 Skills: Software Testing Life Cycle (STLC) · QA Automation · Test Scripts · JavaScript · SQL · " + 
        "Microsoft Dynamics 365 · Azure DevOps · Git · Cypress · Agile Software Development."    
     },
@@ -57,12 +58,16 @@ export const ResumeSlider = [
         Date: "Sep 2022 - Dec 2022",
         Organization: "We Care Insurance",
         Location: "Omaha, Nebraska, United States",
-        FirstItem: "\u2022 Designed, created, and executed automation scripts using Java and Selenium.",
-        SecondItem: "\u2022 Configured test environments for running test cases and scenarios using Spring " +
-        "Tool Suite. Assisted with software testing",
-        ThirdItem: "\u2022 Participated in the deployment of QA processes using software tools and " +
-        "supporting technologies.",
-        FourthItem: "\u2022 Skills: MySQL · XAMPP · Spring Tool Suite · Selenium · Spring Boot · HTML · CSS · JavaScript · Java · GitHub"    
+        FirstItem: "\u2022 Participated in the implementation of a Spring Boot application to perform web " +
+        "automation using Java, Selenium, and Spring Tool Suite 4. I prepared weekly reports and presentations " +
+        "to report on the progress of the automation process and compliance with the company's requirements.",
+        SecondItem: "\u2022 Configured test environments such as Spring Tool Suite to create and execute " +
+        "automated scripts on different types of web browsers using the Selenium Web Driver. I used HTML, " +
+        "CSS, and techniques like XPath to execute actions on the web elements of the web page.",
+        ThirdItem: "\u2022 Executed SQL queries, using XAMPP and phpMyAdmin, to test the information " +
+        "extraction process from the MySQL database to be used by the application during the automation " +
+        "process.",
+        FourthItem: "\u2022 Skills: MySQL · XAMPP · Spring Tool Suite · Selenium · Spring Boot · HTML · CSS · Java · GitHub"    
      },
      {
         Title: "Work Experience",

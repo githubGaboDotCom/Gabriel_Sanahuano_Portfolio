@@ -2,10 +2,10 @@ export const MyProjectsSlider = [
     {
         AppName: 'Pasuca Calculator',
         WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
-        AppDescription: 'It stores names of approximately 350 products with their respective ' + 
-        'prices. The search bar with a filter allows you to search for the desired ' +
-        'product and then select it. The app carries out multiplication and addition ' +
-        'to give you the total price of your purchase.',
+        AppDescription: 'Web application that stores products with their respective ' +
+        'prices, and then calculates the total purchase price. One of its features ' + 
+        'is a search bar with a filter to search for the desired products and then add ' +
+        'them to the list of selected products to purchase.',
         ProjectSkills: 'Skills: HTML, CSS, JavaScript.',
         AppWebURL: 'https://githubgabodotcom.github.io/Pasuca_Calculator/',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/Pasuca_Calculator/tree/main',
@@ -14,10 +14,10 @@ export const MyProjectsSlider = [
     {
         AppName: 'Sign Language Translator',
         WebUrl: 'https://www.youtube.com/embed/sDuQHH-8wNY?si=1WGUUsbZhORngFEW',
-        AppDescription: 'The project goal is to create a web application that can translate ' +
-        'sign language to the English language. This application will use the main concepts of ' +
-        'web development and artificial intelligence for sign language and static-gesture recognition. ' +
-        'It will benefit app users who do not know sign language and have the need to communicate through it daily.',
+        AppDescription: 'A personal project to improve my skills in the field of Artificial ' +
+        'Intelligence. The goal is to translate some signs of the American Sign Language into ' +
+        'English words.  It’s an application very easy to use and destined to help learning some ' +
+        'signs in a very interactive way.',
         ProjectSkills: 'Skills: HTML, CSS, JavaScript, React.js, Node.js, MySQL, Tensorflow.js',
         AppWebURL: 'https://github.com/githubGaboDotCom/Sign-Language-Translator-Web-App',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/Sign-Language-Translator-Web-App',
@@ -33,7 +33,7 @@ export const MyProjectsSlider = [
         ProjectSkills: 'Skills: HTML, CSS, JavaScript.',
         AppWebURL: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
-        TextAppLink: 'Click here to go to the Time Tracking App'
+        TextAppLink: 'I am making modifications to this web app. I will post the app link soon.'
     },
     {
         AppName: 'Gospel Library App',
@@ -51,7 +51,7 @@ export const MyProjectsSlider = [
         AppName: 'Analytics Deployment App with Docker and Streamlit',
         WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
         AppDescription: 'This project consists of a study to understand the behavior of Chipotle consumers. I ' +
-        'used a Safegraph database to access information about people who have visited Chipotle facilities' +
+        'used a Safegraph database to access information about people who have visited Chipotle facilities ' +
         'in the last four years. This study helps us know the popular brands that Chipotle customers prefer ' +
         'to go to often, either on the same day or in the same month of visiting Chipotle.',
         ProjectSkills: 'Skills: Pyspark, SparkSQL, Python, Docker, Databricks, Streamlit',
