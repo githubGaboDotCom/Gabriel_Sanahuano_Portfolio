@@ -12,7 +12,14 @@ export const ResumeSlider = [
       "Networking, Systems Security I, Discrete Mathematics I, Machine Learning and Data Mining, " +
       "Big Data Programming and Analytics, Computer Security, Parallelism and Concurrency, Algorithms " +
       "& Complexity, Introduction to Robotics, Clojure Language, Linear Algebra, Applied Calculus for " +
-      "Data Analysis."
+      "Data Analysis.",
+      SecondItem: "\u2022 Make software design decisions at multiple levels, from algorithm implementation " +
+      "to system architecture, by employing rigorous analysis processes.",
+      ThirdItem: "\u2022 Explore and create computing solutions for problems that require algorithmic " +
+      "thinking and use of mathematical formulas and concepts.",
+      FourthItem: "\u2022 Apply modern techniques to single-threaded and concurrent application development.",
+      FifthItem: "\u2022 Use common industry tools in various computing environments (e.g., command line, " +
+      "client-server, cloud)." 
     },
     {
       Title: "Education",
@@ -95,17 +102,18 @@ export const ResumeSlider = [
         Date: "Ago 2021 - Nov 2021",
         Organization: "Brigham Young University - Idaho",
         Location: "Rexburg, Idaho, United States",
-        FirstItem: "\u2022 Record and classify received Incidents and undertake an immediate effort to " +
-        "fix Computer issues.",
-        SecondItem: "\u2022 Monitor IT Technicians to ensure they reach their goals and the IT " + 
+        FirstItem: "\u2022 Recorded and classified Incidents and undertook an immediate effort to fix " +
+        "computer issues.",
+        SecondItem: "\u2022 Monitored IT Technicians to ensure they reach their goals, and the IT " + 
         "troubleshooting process is performed properly.",
-        ThirdItem: "\u2022 Responsible for assigning incidents within a group of 25 IT Technicians " +
-        "(IT Tier 2).",
-        FourthItem: "\u2022 Restore a failed IT Service, repair hardware damage, and troubleshooting " +
-        "software issues as quickly as possible.",
-        FifthItem: "\u2022 Document troubleshooting steps and service restoration details.",
-        SixthItem: "\u2022 Investigate and diagnose IT Incidents to restore a failed IT Service as " +
-        "quickly as possible."  
+        ThirdItem: "\u2022 Responsible for coordinating and assigning incident tickets within a group " +
+        "of 25 IT Technicians (IT Tier 2).",
+        FourthItem: "\u2022 Ensured that IT Incidents tickets are being performed at a high level of quality " +
+        "and that they meet the Service Level Agreements.",
+        FifthItem: "\u2022 Documented troubleshooting steps and service restoration details. Verified resolution " +
+        "with BYU-I students, faculty, and Full-time employees using the Team Dynamix Software.",
+        SixthItem: "\u2022 Investigated and diagnosed IT Incidents to restore IT Service as " +
+        "quickly as possible. Repaired hardware damage and troubleshooted complex software issues."  
      },
      {
         Title: "Work Experience",
@@ -114,12 +122,13 @@ export const ResumeSlider = [
         Organization: "Brigham Young University - Idaho",
         Location: "Rexburg, Idaho, United States",
         FirstItem: "\u2022 IT troubleshooting & problem-solving.",
-        SecondItem: "\u2022 Performing data backups on Onedrive, mapping network drives, and updating Active Directory.",
-        ThirdItem: "\u2022 Answering phone calls and remote technical support.",
+        SecondItem: "\u2022 Performed data backups on Onedrive, mapped network drives, and updated Active Directory.",
+        ThirdItem: "\u2022 Answered phone calls and provided remote technical support.",
         FourthItem: "\u2022 LAN & WAN Connectivity & Maintenance.",
-        FifthItem: "\u2022 Installing, repairing, maintaining, and upgrading Windows and Mac operating systems.",
-        SixthItem: "\u2022 Fixing any type of technical issues including WIFI connectivity, virtual machines, " +
-        "Office 365, AC Cloud, malware, upgrading operating systems, and software installation.",
-        SeventhItem: "\u2022 Imaging computers and installing appropriate software for faculty and student employees." 
+        FifthItem: "\u2022 Installed, repaired, maintained, and upgraded Windows and Mac operating systems.",
+        SixthItem: "\u2022 Troubleshooted technical issues involving WIFI connectivity, virtual machines, " +
+        "Office 365, AC Cloud, malware, OneDrive, network drives, active directory, printer connectivity, " +
+        "hardware issues, BYUI network configurations, and OS corruption.",
+        SeventhItem: "\u2022 Imaged computers and installed appropriate software for faculty and student employees." 
      }
 ];
