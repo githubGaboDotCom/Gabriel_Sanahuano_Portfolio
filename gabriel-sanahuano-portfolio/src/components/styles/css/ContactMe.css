@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
 .ContactMeParentContainer {
     display: flex;
     justify-content: center;
@@ -11,4 +13,9 @@
     top: 17%;
     color: white;
     border: 3px solid whitesmoke;
+}
+
+.ContactMeTitleContainer {
+    text-align: center;
+    font-family: 'Special Elite';
 }
