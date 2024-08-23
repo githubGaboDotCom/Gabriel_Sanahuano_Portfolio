@@ -78,7 +78,7 @@ function AboutMeWindow () {
             animate = {{opacity: 1, scale: 1}}
             transition = {{duration: 0.5, delay: 0.5, ease: [0, 0.71, 0.2, 1.01]}}>
                 <div className="ContentContainer">
-                    <img src="/pictureResume.jpeg" alt="Gabriel's Pic"/>
+                    <img className="gabrielPic" src="/pictureResume.jpeg" alt="Gabriel's Pic"/>
                     <div className="TextContainer">
                     {/*eslint-disable-next-line*/}
                         <h2 id="Title" ref={title} />
