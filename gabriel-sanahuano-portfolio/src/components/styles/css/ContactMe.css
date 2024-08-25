@@ -20,6 +20,11 @@
     font-family: 'Special Elite';
 }
 
-picture img {
-    padding-left: 10px;
+.ContactMeTitleContainer h2 {
+    font-size: 1.6em;
+    margin-top: 14.5px;
+}
+
+.ContactMeTitleContainer h2 img {
+    padding-left: 8px;
 }

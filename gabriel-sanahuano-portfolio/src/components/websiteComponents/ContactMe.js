@@ -10,12 +10,13 @@ function ContactMePage () {
             transition = {{duration: 0.5, delay: 0.5, ease: [0, 0.71, 0.2, 1.01]}}>
                 <div className="ContactMeTitleContainer">
                     <h2>Send Me a Message!
-                        <picture>
-                            <source srcset="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.webp" type="image/webp" />
-                            <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.gif" alt="😀" width="27" height="27"/>
-                        </picture>
+                        <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.gif" alt="😀" width="26" height="26"/>
                     </h2>
                 </div>
+                <p>Let's chat and create something together. If you have any fun projects or ideas to revolutionize your business through 
+                   software, you're in the right place and I would love to help and contribute to them. Get in touch by completing the 
+                   form below, and I'll be contacting you soon. Thanks for visiting my portfolio! 
+                </p>
             </motion.div>
         </div>
     );
