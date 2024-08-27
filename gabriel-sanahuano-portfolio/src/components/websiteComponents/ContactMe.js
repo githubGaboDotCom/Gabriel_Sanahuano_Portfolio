@@ -13,10 +13,18 @@ function ContactMePage () {
                         <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.gif" alt="😀" width="26" height="26"/>
                     </h2>
                 </div>
-                <p>Let's chat and create something together. If you have any fun projects or ideas to revolutionize your business through 
+                <p className="connectInvitation">Let's chat and create something together. If you have any fun projects or ideas to revolutionize your business through 
                    software, you're in the right place and I would love to help and contribute to them. Get in touch by completing the 
                    form below, and I'll be contacting you soon. Thanks for visiting my portfolio! 
                 </p>
+                <form>
+                    <input type="text" name="firstName" />
+                    <input type="text" name="lastName" /> <br />
+                    <input type="email" name="email" /> <br />
+                    <input type="text" name="subject" /> <br />
+                    <textarea name="bodyEmail" rows="5" cols="50"/>
+                    <input type="submit" value="Submit" />
+                </form>
             </motion.div>
         </div>
     );
