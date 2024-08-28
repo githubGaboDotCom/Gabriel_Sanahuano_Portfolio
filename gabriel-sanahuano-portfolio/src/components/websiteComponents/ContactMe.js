@@ -18,11 +18,11 @@ function ContactMePage () {
                    form below, and I'll be contacting you soon. Thanks for visiting my portfolio! 
                 </p>
                 <form>
-                    <input type="text" name="firstName" />
-                    <input type="text" name="lastName" /> <br />
-                    <input type="email" name="email" /> <br />
-                    <input type="text" name="subject" /> <br />
-                    <textarea name="bodyEmail" rows="5" cols="50"/>
+                    <input type="text" id="textFields" name="firstName" />
+                    <input type="text" id="textFields" name="lastName" /> <br />
+                    <input type="email" id="textFields" name="email" /> <br />
+                    <input type="text" id="textFields" name="subject" /> <br />
+                    <textarea name="bodyEmail" rows="5" cols="90"/>
                     <input type="submit" value="Submit" />
                 </form>
             </motion.div>
