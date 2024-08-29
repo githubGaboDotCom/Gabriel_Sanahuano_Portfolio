@@ -45,7 +45,27 @@ form {
 }
 
 #textFields {
-    width: 365px;
+    width: 335px;
     height: 25px;
+    font-size: 16px;
     margin-bottom: 15px;
+    background-color: rgb(55, 101, 40, 0.7);
+    font-family: 'Special Elite';
+    border: 2px solid green;
+}
+
+.lastNameField {
+    margin-left: 60px;
+}
+
+textarea {
+    font-size: 15px;
+    background-color: rgb(55, 101, 40, 0.7);
+    font-family: 'Special Elite'; 
+    border: 2px solid green;
+    margin-bottom: 10px;
+}
+
+::placeholder {
+    color: rgb(184, 182, 182);
 }
