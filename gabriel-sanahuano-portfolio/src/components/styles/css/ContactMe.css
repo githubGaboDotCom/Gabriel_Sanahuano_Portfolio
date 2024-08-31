@@ -13,6 +13,7 @@
     top: 17%;
     color: white;
     border: 3px solid whitesmoke;
+    z-index: 1;
 }
 
 .ContactMeTitleContainer {
@@ -48,6 +49,7 @@ form {
     width: 335px;
     height: 25px;
     font-size: 16px;
+    color: white;
     margin-bottom: 15px;
     background-color: rgb(55, 101, 40, 0.7);
     font-family: 'Special Elite';
@@ -60,10 +62,21 @@ form {
 
 textarea {
     font-size: 15px;
+    color: white;
     background-color: rgb(55, 101, 40, 0.7);
     font-family: 'Special Elite'; 
     border: 2px solid green;
     margin-bottom: 10px;
+}
+
+#submitButton {
+    margin-left: 45%;
+    font-size: 23px;
+    background-color: rgb(2, 105, 2);
+    font-family: 'Special Elite';
+    color: white;
+    border: 3px solid green;
+    padding: 2px;
 }
 
 ::placeholder {

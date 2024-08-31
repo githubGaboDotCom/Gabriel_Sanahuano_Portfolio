@@ -23,7 +23,7 @@ function ContactMePage () {
                     <input type="email" id="textFields" name="email" placeholder="Email" /> <br />
                     <input type="text" id="textFields" name="subject" placeholder="Subject" /> <br />
                     <textarea name="bodyEmail" rows="7" cols="72" placeholder="Type your message here ..."/> <br />
-                    <input type="submit" value="Submit" />
+                    <input id="submitButton" type="submit" value="Submit" />
                 </form>
             </motion.div>
         </div>
