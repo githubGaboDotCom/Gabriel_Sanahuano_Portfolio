@@ -39,6 +39,22 @@ export const ResumeSlider = [
       "knowledge of the algebraic properties of matrices."
     },
     {
+      Title: "Work Experience",
+      SubTitle: "Software Integration Specialist",
+      Date: "Mar 2024 - Dec 2024",
+      Organization: "Bloom",
+      Location: "Cali, Valle del Cauca, Colombia",
+      FirstItem: "\u2022 Worked remotely for one of our Clients, Graphite Connect Inc., by improving and maintaining " +
+      "the B2B integration process, data transformation mappings, Suppliers configurations, and data quality. Assisted our " +
+      "customers in managing complex enterprise systems such as Enterprise Resource Planning (ERP), eProcurement " +
+      "integrations, Single Sign-On systems, and REST API-based integrations.",
+      SecondItem: "\u2022 Execute Quality Assurance plans to test, troubleshoot, and deploy new integrations to the " +
+      "test and prod environments of ERPs such as NetSuite, Oracle EBS, D365, SAP, and Microsoft Navision.",
+      ThirdItem: "\u2022 Test, maintain, and document Graphite's Public API by analyzing integrated data in JSON " +
+      "objects, code reviews, configuration requests, and executing queries in NoSQLBooster for our MongoDB database documents.",
+      FourthItem: "\u2022 Skills: MongoDB · Postman · REST API · NoSQLBooster · Bitbucket · Jira · Virtual Machines · JSON"    
+    },
+    {
        Title: "Work Experience",
        SubTitle: "Software Test Engineer (Internship)",
        Date: "Jan 2023 - Dec 2023",
