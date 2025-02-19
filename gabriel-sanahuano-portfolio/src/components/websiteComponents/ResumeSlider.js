@@ -40,6 +40,13 @@ export const ResumeSlider = [
     },
     {
       Title: "Work Experience",
+      SubTitle: "Software Test Engineer",
+      Date: "Dec 2024 - Present",
+      Organization: "Heinsohn",
+      Location: "Cali, Valle del Cauca, Colombia"    
+    },
+    {
+      Title: "Work Experience",
       SubTitle: "Software Integration Specialist",
       Date: "Mar 2024 - Dec 2024",
       Organization: "Bloom",
