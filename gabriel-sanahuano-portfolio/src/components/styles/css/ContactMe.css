@@ -41,12 +41,12 @@
 
 form {
     margin-top: 25px;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 25px;
+    margin-left: 15px;
 }
 
 #textFields {
-    width: 335px;
+    width: 365px;
     height: 25px;
     font-size: 16px;
     color: white;

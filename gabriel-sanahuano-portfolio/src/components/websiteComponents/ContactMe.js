@@ -20,9 +20,9 @@ function ContactMePage () {
                 <form>
                     <input type="text" id="textFields" name="firstName" placeholder="First Name" />
                     <input type="text" id="textFields" name="lastName" className="lastNameField" placeholder="Last Name" /> <br />
-                    <input type="email" id="textFields" name="email" placeholder="Email" /> <br />
+                    <input type="email" id="textFields" name="email" placeholder="Email Address" /> <br />
                     <input type="text" id="textFields" name="subject" placeholder="Subject" /> <br />
-                    <textarea name="bodyEmail" rows="7" cols="72" placeholder="Type your message here ..."/> <br />
+                    <textarea name="bodyEmail" rows="7" cols="78" placeholder="Type your message here ..."/> <br />
                     <input id="submitButton" type="submit" value="Submit" />
                 </form>
             </motion.div>
