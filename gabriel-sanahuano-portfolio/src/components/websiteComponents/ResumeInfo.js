@@ -5,6 +5,7 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { faImage } from '@fortawesome/free-solid-svg-icons';
 
 function ResumeInfo () {
 
@@ -39,7 +40,7 @@ function ResumeInfo () {
                                 {
                                     index === current && (
                                         <div>
-                                            <h3 className='EducationAndWorkTitle'>{slide.Title}</h3>
+                                            <h3 className='EducationAndWorkTitle'>{slide.Title} <FontAwesomeIcon className='imageIcon' icon={faImage} /> </h3>
                                             <div className='slideTextContainer'>
                                                 <div className='SubTitleAndOrg'>
                                                     <h5 className='SubTitle'>{slide.SubTitle}</h5>

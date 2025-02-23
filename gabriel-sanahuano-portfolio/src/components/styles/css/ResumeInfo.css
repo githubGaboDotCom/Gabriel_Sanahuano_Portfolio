@@ -102,3 +102,10 @@
     margin-top: 7px;
     margin-bottom: 7px;
 }
+
+.imageIcon {
+    margin-left: 8px;
+    font-size: 25px;
+    cursor: pointer;
+    color:rgb(146, 252, 216)
+}
