@@ -9,9 +9,8 @@ function ContactMePage () {
             animate = {{opacity: 1, scale: 1}}
             transition = {{duration: 0.5, delay: 0.5, ease: [0, 0.71, 0.2, 1.01]}}>
                 <div className="ContactMeTitleContainer">
-                    <h2>Send Me a Message!
-                        <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.gif" alt="😀" width="26" height="26"/>
-                    </h2>
+                    <img id="smileyFaceEmoji" src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.gif" alt="😀" width="26" height="24.5"/>
+                    <h2>Send Me a Message!</h2>
                 </div>
                 <p className="connectInvitation">Let's chat and create something together. If you have any fun projects or ideas to revolutionize your business through 
                    software, you're in the right place and I would love to help and contribute to them. Get in touch by completing the 
@@ -22,7 +21,7 @@ function ContactMePage () {
                     <input type="text" id="textFields" name="lastName" className="lastNameField" placeholder="Last Name" /> <br />
                     <input type="email" id="textFields" name="email" placeholder="Email Address" /> <br />
                     <input type="text" id="textFields" name="subject" placeholder="Subject" /> <br />
-                    <textarea name="bodyEmail" rows="7" cols="78" placeholder="Type your message here ..."/> <br />
+                    <textarea name="bodyEmail" rows="7" cols="80" placeholder="Type your message here ..."/> <br />
                     <input id="submitButton" type="submit" value="Submit" />
                 </form>
             </motion.div>
