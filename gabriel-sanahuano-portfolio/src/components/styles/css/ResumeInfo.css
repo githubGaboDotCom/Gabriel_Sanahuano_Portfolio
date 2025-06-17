@@ -84,8 +84,14 @@
     transform: scale(1.08);
 }
 
+.iconAndTitleContainer {
+    width: 100%;
+    display: flex;
+}
+
 .EducationAndWorkTitle {
     margin-bottom: 0;
+    width: 50%;
 }
 
 .SubTitle, .Date {
@@ -104,8 +110,19 @@
 }
 
 .imageIcon {
-    margin-left: 8px;
     font-size: 25px;
     cursor: pointer;
-    color: rgb(45, 225, 45)
+    color: rgb(45, 225, 45);
+    animation-name: imageIcon;
+    animation-duration: 4s;
+}
+
+@keyframes imageIcon
+{
+0% {transform: rotate(0deg);margin-left:0px;}
+25% {transform: rotate(20deg);margin-left:0px;}
+50% {transform: rotate(0deg);margin-left:300px;}
+55% {transform: rotate(0deg);margin-left:300px;}
+70% {transform: rotate(0deg);margin-left:300px;}
+100% {transform: rotate(-360deg);margin-left:0px;}
 }

@@ -40,7 +40,10 @@ function ResumeInfo () {
                                 {
                                     index === current && (
                                         <div>
-                                            <h3 className='EducationAndWorkTitle'>{slide.Title} <FontAwesomeIcon className='imageIcon' icon={faImage} /> </h3>
+                                            <div className='iconAndTitleContainer'>
+                                                <h3 className='EducationAndWorkTitle'>{slide.Title}</h3>
+                                                <FontAwesomeIcon className='imageIcon' icon={faImage} />
+                                            </div>
                                             <div className='slideTextContainer'>
                                                 <div className='SubTitleAndOrg'>
                                                     <h5 className='SubTitle'>{slide.SubTitle}</h5>
