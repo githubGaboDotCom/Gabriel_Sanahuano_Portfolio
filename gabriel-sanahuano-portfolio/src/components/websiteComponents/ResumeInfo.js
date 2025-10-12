@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import '../styles/css/ResumeInfo.css';
+import { AnimatePresence} from 'framer-motion';
 import { ResumeSlider} from './ResumeSlider';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,6 +11,7 @@ import { faImage } from '@fortawesome/free-solid-svg-icons';
 function ResumeInfo () {
 
     const [current, setCurrent] = useState(0);
+    const [isVisible, setImageIsVisible] = useState(false);
     const sliderLength = ResumeSlider.length;
 
     const nextSlide = () => {
@@ -42,7 +44,7 @@ function ResumeInfo () {
                                         <div>
                                             <div className='iconAndTitleContainer'>
                                                 <h3 className='EducationAndWorkTitle'>{slide.Title}</h3>
-                                                <FontAwesomeIcon className='imageIcon' icon={faImage} />
+                                                <FontAwesomeIcon className='imageIcon' icon={faImage} onClick={() => setImageIsVisible(!isVisible)} />
                                             </div>
                                             <div className='slideTextContainer'>
                                                 <div className='SubTitleAndOrg'>
@@ -63,6 +65,18 @@ function ResumeInfo () {
                                             <p className='BulletText'>{slide.SeventhItem}</p>
                                             <p className='BulletText'>{slide.EigthItem}</p>
                                             <p className='BulletText'>{slide.NinethItem}</p>
+                                            <AnimatePresence initial={false}>
+                                                {isVisible ? (
+                                                    <motion.img
+                                                        initial={{ opacity: 0, scale: 0 }}
+                                                        animate={{ opacity: 1, scale: 1 }}
+                                                        exit={{ opacity: 0, scale: 0 }} 
+                                                        className="Pic" 
+                                                        src="/pic.jpeg"
+                                                        alt="Pic"
+                                                    />
+                                                ) : null}
+                                            </AnimatePresence>
                                         </div>
                                     )
                                 }
