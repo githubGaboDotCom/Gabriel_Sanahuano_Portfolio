@@ -121,10 +121,8 @@
 
 .Pic {
     position: absolute;
-    width: 255px;
-    height: 360px;
-    /* margin: 15px;
-    padding-top: 15px; */
+    /* width: 255px;
+    height: 360px; */
     top: 0px;
     left: 200px;
 }

@@ -1,6 +1,5 @@
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence} from 'framer-motion';
 import '../styles/css/ResumeInfo.css';
-import { AnimatePresence} from 'framer-motion';
 import { ResumeSlider} from './ResumeSlider';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -72,8 +71,10 @@ function ResumeInfo () {
                                                         animate={{ opacity: 1, scale: 1 }}
                                                         exit={{ opacity: 0, scale: 0 }} 
                                                         className="Pic" 
-                                                        src="/pic.jpeg"
-                                                        alt="Pic"
+                                                        src={slide.imagePath}
+                                                        width={slide.imageWidth}
+                                                        height={slide.imageHeight}
+                                                        alt={slide.imageAlt}
                                                     />
                                                 ) : null}
                                             </AnimatePresence>
