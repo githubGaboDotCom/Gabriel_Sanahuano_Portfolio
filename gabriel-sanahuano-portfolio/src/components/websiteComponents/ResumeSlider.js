@@ -54,7 +54,7 @@ export const ResumeSlider = [
       Location: "Cali, Valle del Cauca, Colombia",
       imagePath: "hbt-logo.png",
       imageWidth: "255px",
-      imageHeight: "360px",
+      imageHeight: "250px",
       imageAlt: "Heinsohn company logo",   
     },
     {
@@ -64,8 +64,8 @@ export const ResumeSlider = [
       Organization: "Bloom",
       Location: "Cali, Valle del Cauca, Colombia",
       imagePath: "/bloom-logo.png",
-      imageWidth: "255px",
-      imageHeight: "360px",
+      imageWidth: "300px",
+      imageHeight: "280px",
       imageAlt: "Bloom company logo",
       FirstItem: "\u2022 Worked remotely for one of our Clients, Graphite Connect Inc., by improving and maintaining " +
       "the B2B integration process, data transformation mappings, Suppliers configurations, and data quality. Assisted our " +
@@ -84,8 +84,8 @@ export const ResumeSlider = [
       Organization: "The Church of Jesus Christ of Latter-day Saints",
       Location: "Riverton, Utah, United States",
       imagePath: "/rob-building.png",
-      imageWidth: "255px",
-      imageHeight: "360px",
+      imageWidth: "320px",
+      imageHeight: "340px",
       imageAlt: "ROB Building in Riverton Utah",
       FirstItem: "\u2022 Contributed to 240 user stories in Azure DevOps through the implementation of " +
       "QA tests using manual and automated testing and communicated observations to the dev team.",
@@ -109,8 +109,8 @@ export const ResumeSlider = [
       Organization: "We Care Insurance",
       Location: "Omaha, Nebraska, United States",
       imagePath: "/weCareInsurance-contribution.png",
-      imageWidth: "255px",
-      imageHeight: "360px",
+      imageWidth: "410px",
+      imageHeight: "220px",
       imageAlt: "We Care Insurance website contribution",
       FirstItem: "\u2022 Participated in the implementation of a Spring Boot application to perform web " +
       "automation using Java, Selenium, and Spring Tool Suite 4. I prepared weekly reports and presentations " +
@@ -154,7 +154,7 @@ export const ResumeSlider = [
       Organization: "Brigham Young University - Idaho",
       Location: "Rexburg, Idaho, United States",
       imagePath: "/incLead-pic.jpeg",
-      imageWidth: "255px",
+      imageWidth: "275px",
       imageHeight: "360px",
       imageAlt: "My Incident lead's Picture",
       FirstItem: "\u2022 Recorded and classified Incidents and undertook an immediate effort to fix " +
@@ -177,8 +177,8 @@ export const ResumeSlider = [
       Organization: "Brigham Young University - Idaho",
       Location: "Rexburg, Idaho, United States",
       imagePath: "/itTech-badge.jpeg",
-      imageWidth: "255px",
-      imageHeight: "360px",
+      imageWidth: "280px",
+      imageHeight: "340px",
       imageAlt: "My technician badge",
       FirstItem: "\u2022 IT troubleshooting & problem-solving.",
       SecondItem: "\u2022 Performed data backups on Onedrive, mapped network drives, and updated Active Directory.",
