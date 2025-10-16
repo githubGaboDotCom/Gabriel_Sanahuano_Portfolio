@@ -56,6 +56,10 @@ export const ResumeSlider = [
       imageWidth: "255px",
       imageHeight: "250px",
       imageAlt: "Heinsohn company logo",   
+      FirstItem: "\u2022 In progress.",
+      SecondItem: "\u2022 In progress.",
+      ThirdItem: "\u2022 In progress.",
+      FourthItem: "\u2022 In progress."
     },
     {
       Title: "Work Experience",
