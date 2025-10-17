@@ -53,8 +53,8 @@ export const ResumeSlider = [
       Organization: "Heinsohn",
       Location: "Cali, Valle del Cauca, Colombia",
       imagePath: "hbt-logo.png",
-      imageWidth: "255px",
-      imageHeight: "250px",
+      imageWidth: "265px",
+      imageHeight: "290px",
       imageAlt: "Heinsohn company logo",   
       FirstItem: "\u2022 In progress.",
       SecondItem: "\u2022 In progress.",
@@ -68,8 +68,8 @@ export const ResumeSlider = [
       Organization: "Bloom",
       Location: "Cali, Valle del Cauca, Colombia",
       imagePath: "/bloom-logo.png",
-      imageWidth: "300px",
-      imageHeight: "280px",
+      imageWidth: "285px",
+      imageHeight: "290px",
       imageAlt: "Bloom company logo",
       FirstItem: "\u2022 Worked remotely for one of our Clients, Graphite Connect Inc., by improving and maintaining " +
       "the B2B integration process, data transformation mappings, Suppliers configurations, and data quality. Assisted our " +
@@ -113,8 +113,8 @@ export const ResumeSlider = [
       Organization: "We Care Insurance",
       Location: "Omaha, Nebraska, United States",
       imagePath: "/weCareInsurance-contribution.png",
-      imageWidth: "410px",
-      imageHeight: "220px",
+      imageWidth: "415px",
+      imageHeight: "247px",
       imageAlt: "We Care Insurance website contribution",
       FirstItem: "\u2022 Participated in the implementation of a Spring Boot application to perform web " +
       "automation using Java, Selenium, and Spring Tool Suite 4. I prepared weekly reports and presentations " +
@@ -181,7 +181,7 @@ export const ResumeSlider = [
       Organization: "Brigham Young University - Idaho",
       Location: "Rexburg, Idaho, United States",
       imagePath: "/itTech-badge.jpeg",
-      imageWidth: "280px",
+      imageWidth: "290px",
       imageHeight: "340px",
       imageAlt: "My technician badge",
       FirstItem: "\u2022 IT troubleshooting & problem-solving.",

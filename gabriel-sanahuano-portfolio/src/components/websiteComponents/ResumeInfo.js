@@ -3,9 +3,7 @@ import '../styles/css/ResumeInfo.css';
 import { ResumeSlider} from './ResumeSlider';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
-import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { faImage } from '@fortawesome/free-solid-svg-icons';
+import { faCircleArrowLeft, faCircleArrowRight, faImage, faSquareXmark } from '@fortawesome/free-solid-svg-icons';
 
 function ResumeInfo () {
 
@@ -32,7 +30,7 @@ function ResumeInfo () {
                 </div>
                 <div className='sliderContainer'>
                     <div className='leftArrowContainer'>
-                        <FontAwesomeIcon className='leftArrow' icon= {faCircleArrowLeft} onClick={previousSlide} />
+                        <FontAwesomeIcon className='leftArrow' icon= {faCircleArrowLeft} onClick={() => {previousSlide(); setImageIsVisible(false);}} />
                     </div>
                     <div className='EducationAndJobExperience'>
                     {ResumeSlider.map((slide, index) => {
@@ -70,13 +68,18 @@ function ResumeInfo () {
                                                         className='ImageContainer'
                                                         initial={{ opacity: 0, scale: 0 }}
                                                         animate={{ opacity: 1, scale: 1 }}
-                                                        exit={{ opacity: 0, scale: 0 }}>
-                                                            <motion.img
-                                                                src={slide.imagePath}
-                                                                width={slide.imageWidth}
-                                                                height={slide.imageHeight}
-                                                                alt={slide.imageAlt}
-                                                            />
+                                                        exit={{ opacity: 0, scale: 0 }}>                                                          
+                                                            <FontAwesomeIcon className='CloseWindowIcon' icon={faSquareXmark} onClick={() => setImageIsVisible(false)} />                                                           
+                                                            <div className='ImageAndText'>
+                                                                <motion.img
+                                                                    src={slide.imagePath}
+                                                                    width={slide.imageWidth}
+                                                                    height={slide.imageHeight}
+                                                                    alt={slide.imageAlt}
+                                                                    style={{marginLeft: "11px"}}
+                                                                />
+                                                                <p id='DescriptionText'>This is an example text is a test cccccccccccccccc</p>
+                                                            </div>
                                                     </motion.div>
                                                 ) : null}
                                             </AnimatePresence>
@@ -88,7 +91,7 @@ function ResumeInfo () {
                     })}
                     </div>
                     <div className='rightArrowContainer'>
-                        <FontAwesomeIcon className='rightArrow' icon={faCircleArrowRight} onClick={nextSlide} />
+                        <FontAwesomeIcon className='rightArrow' icon={faCircleArrowRight} onClick={() => {nextSlide(); setImageIsVisible(false);}} />
                     </div>
                 </div>
             </motion.div>
