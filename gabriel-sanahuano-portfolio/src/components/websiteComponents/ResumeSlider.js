@@ -9,6 +9,8 @@ export const ResumeSlider = [
       imageWidth: "255px",
       imageHeight: "360px",
       imageAlt: "My graduation picture",
+      ImageDescription: "This photo was taken on my College graduation day, in December 2022. I graduated " +
+      "with a degree in Computer Science, one of the best days of my life.",
       FirstItem: "Coursework: Introduction to Software Development, Object-Oriented Software Development, " +
       "Fundamentals of Digital Systems,  Web Engineering I, Data Structures, Technical Documentation, " +
       "Database Design & Development, Software Design & Development, Web Engineering II, " +
@@ -35,6 +37,9 @@ export const ResumeSlider = [
       imageWidth: "255px",
       imageHeight: "360px",
       imageAlt: "Machine learning certificate",
+      ImageDescription: "One of my goals in life is to obtain a Master's degree with a focus on Artificial Intelligence. " +
+      "Knowing how essential Machine Learning is for IA, I decided to start my journey by earning a certificate to learn " +
+      "the fundamentals of this study area.",
       FirstItem: "\u2022 Use functions, data structures, and other programming constructs efficiently to process data.",
       SecondItem: "\u2022 Load data from various types of data sources, including files, databases, and remote services.",
       ThirdItem: "\u2022 Use data science libraries to perform analysis, produce charts, and prepare data for machine " +
@@ -55,7 +60,9 @@ export const ResumeSlider = [
       imagePath: "hbt-logo.png",
       imageWidth: "265px",
       imageHeight: "290px",
-      imageAlt: "Heinsohn company logo",   
+      imageAlt: "Heinsohn company logo",
+      ImageDescription: "I am glad to be part of this great company. Heisohn specializes in developing customized " +
+      "technology tailored to our customers' unique objectives, always to ensure efficiency and optimized costs.",   
       FirstItem: "\u2022 In progress.",
       SecondItem: "\u2022 In progress.",
       ThirdItem: "\u2022 In progress.",
@@ -71,6 +78,7 @@ export const ResumeSlider = [
       imageWidth: "285px",
       imageHeight: "290px",
       imageAlt: "Bloom company logo",
+      ImageDescription: "",
       FirstItem: "\u2022 Worked remotely for one of our Clients, Graphite Connect Inc., by improving and maintaining " +
       "the B2B integration process, data transformation mappings, Suppliers configurations, and data quality. Assisted our " +
       "customers in managing complex enterprise systems such as Enterprise Resource Planning (ERP), eProcurement " +
@@ -91,6 +99,7 @@ export const ResumeSlider = [
       imageWidth: "320px",
       imageHeight: "340px",
       imageAlt: "ROB Building in Riverton Utah",
+      ImageDescription: "",
       FirstItem: "\u2022 Contributed to 240 user stories in Azure DevOps through the implementation of " +
       "QA tests using manual and automated testing and communicated observations to the dev team.",
       SecondItem: "\u2022 Participated in software design reviews to identify inconsistencies or issues with web " +
@@ -116,6 +125,7 @@ export const ResumeSlider = [
       imageWidth: "415px",
       imageHeight: "247px",
       imageAlt: "We Care Insurance website contribution",
+      ImageDescription: "",
       FirstItem: "\u2022 Participated in the implementation of a Spring Boot application to perform web " +
       "automation using Java, Selenium, and Spring Tool Suite 4. I prepared weekly reports and presentations " +
       "to report on the progress of the automation process and compliance with the company's requirements.",
@@ -137,6 +147,7 @@ export const ResumeSlider = [
       imageWidth: "255px",
       imageHeight: "360px",
       imageAlt: "COB building in Salt Lake City Utah",
+      ImageDescription: "",
       FirstItem: "\u2022 Technical support on-site for employees in the Salt Lake City area and remotely " +
       "across the United States and Canada.",
       SecondItem: "\u2022 Managed IT service requests, events, incidents, and alerts using the Service Now " + 
@@ -161,6 +172,7 @@ export const ResumeSlider = [
       imageWidth: "275px",
       imageHeight: "360px",
       imageAlt: "My Incident lead's Picture",
+      ImageDescription: "",
       FirstItem: "\u2022 Recorded and classified Incidents and undertook an immediate effort to fix " +
       "computer issues.",
       SecondItem: "\u2022 Monitored IT Technicians to ensure they reach their goals, and the IT " + 
@@ -184,6 +196,7 @@ export const ResumeSlider = [
       imageWidth: "290px",
       imageHeight: "340px",
       imageAlt: "My technician badge",
+      ImageDescription: "",
       FirstItem: "\u2022 IT troubleshooting & problem-solving.",
       SecondItem: "\u2022 Performed data backups on Onedrive, mapped network drives, and updated Active Directory.",
       ThirdItem: "\u2022 Answered phone calls and provided remote technical support.",

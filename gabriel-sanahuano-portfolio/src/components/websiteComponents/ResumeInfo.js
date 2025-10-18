@@ -78,7 +78,7 @@ function ResumeInfo () {
                                                                     alt={slide.imageAlt}
                                                                     style={{marginLeft: "11px"}}
                                                                 />
-                                                                <p id='DescriptionText'>This is an example text is a test cccccccccccccccc</p>
+                                                                <p id='DescriptionText'>{slide.ImageDescription}</p>
                                                             </div>
                                                     </motion.div>
                                                 ) : null}
