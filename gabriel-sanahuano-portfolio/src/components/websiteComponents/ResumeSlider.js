@@ -76,9 +76,11 @@ export const ResumeSlider = [
       Location: "Cali, Valle del Cauca, Colombia",
       imagePath: "/bloom-logo.png",
       imageWidth: "285px",
-      imageHeight: "290px",
+      imageHeight: "300px",
       imageAlt: "Bloom company logo",
-      ImageDescription: "",
+      ImageDescription: "I had the great blessing of working for this company. Bloom is an international company with " +
+      "hundreds of collaborators all over the world. Bloom helps companies to integrate US-educated talent living " +
+      "abroad into their workforce.",
       FirstItem: "\u2022 Worked remotely for one of our Clients, Graphite Connect Inc., by improving and maintaining " +
       "the B2B integration process, data transformation mappings, Suppliers configurations, and data quality. Assisted our " +
       "customers in managing complex enterprise systems such as Enterprise Resource Planning (ERP), eProcurement " +
@@ -99,7 +101,9 @@ export const ResumeSlider = [
       imageWidth: "320px",
       imageHeight: "340px",
       imageAlt: "ROB Building in Riverton Utah",
-      ImageDescription: "",
+      ImageDescription: "Photo of the Riverton Office Building, located in Riverton, Utah, which is one of the " +
+      "headquarters of the LDS Church. I did my internship there as a Software Test Engineer for a whole year while " +
+      "working remotely. This internship was crucial in my professional life.",
       FirstItem: "\u2022 Contributed to 240 user stories in Azure DevOps through the implementation of " +
       "QA tests using manual and automated testing and communicated observations to the dev team.",
       SecondItem: "\u2022 Participated in software design reviews to identify inconsistencies or issues with web " +
@@ -122,10 +126,11 @@ export const ResumeSlider = [
       Organization: "We Care Insurance",
       Location: "Omaha, Nebraska, United States",
       imagePath: "/weCareInsurance-contribution.png",
-      imageWidth: "415px",
-      imageHeight: "247px",
+      imageWidth: "290px",
+      imageHeight: "280px",
       imageAlt: "We Care Insurance website contribution",
-      ImageDescription: "",
+      ImageDescription: 'Photo of a portion of the "About" page of the "We Care Insurance" company website. ' +
+      'I am honored to have been mentioned as a contributor to the development of the web services offered by this great company.',
       FirstItem: "\u2022 Participated in the implementation of a Spring Boot application to perform web " +
       "automation using Java, Selenium, and Spring Tool Suite 4. I prepared weekly reports and presentations " +
       "to report on the progress of the automation process and compliance with the company's requirements.",
