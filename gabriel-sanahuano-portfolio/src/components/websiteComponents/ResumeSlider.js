@@ -152,7 +152,10 @@ export const ResumeSlider = [
       imageWidth: "255px",
       imageHeight: "360px",
       imageAlt: "COB building in Salt Lake City Utah",
-      ImageDescription: "",
+      ImageDescription: "Photo of the Church Office Building, located in Salt Lake City, Utah, the main " +
+      "headquarters of the LDS Church. I worked there as a Technology Support representative intern for 6 months. " +
+      "This internship helped me a lot to develop my troubleshooting skills since I had to resolve several incidents " +
+      "and service request tickets every day.",
       FirstItem: "\u2022 Technical support on-site for employees in the Salt Lake City area and remotely " +
       "across the United States and Canada.",
       SecondItem: "\u2022 Managed IT service requests, events, incidents, and alerts using the Service Now " + 
