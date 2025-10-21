@@ -180,7 +180,7 @@ export const ResumeSlider = [
       imageWidth: "275px",
       imageHeight: "360px",
       imageAlt: "My Incident lead's Picture",
-      ImageDescription: "",
+      ImageDescription: "My photo from when I was part of the IT department at Brigham Young University - Idaho.",
       FirstItem: "\u2022 Recorded and classified Incidents and undertook an immediate effort to fix " +
       "computer issues.",
       SecondItem: "\u2022 Monitored IT Technicians to ensure they reach their goals, and the IT " + 
