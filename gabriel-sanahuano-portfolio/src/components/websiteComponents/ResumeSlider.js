@@ -10,7 +10,8 @@ export const ResumeSlider = [
       imageHeight: "360px",
       imageAlt: "My graduation picture",
       ImageDescription: "This photo was taken on my College graduation day, in December 2022. I graduated " +
-      "with a degree in Computer Science, one of the best days of my life.",
+      "with a degree in Computer Science, one of the best days of my life. Technology has always been my " +
+      "passion, and that's why I decided to pursue a degree related to it.",
       FirstItem: "Coursework: Introduction to Software Development, Object-Oriented Software Development, " +
       "Fundamentals of Digital Systems,  Web Engineering I, Data Structures, Technical Documentation, " +
       "Database Design & Development, Software Design & Development, Web Engineering II, " +
@@ -180,7 +181,10 @@ export const ResumeSlider = [
       imageWidth: "275px",
       imageHeight: "360px",
       imageAlt: "My Incident lead's Picture",
-      ImageDescription: "My photo from when I was part of the IT department at Brigham Young University - Idaho.",
+      ImageDescription: "My photo from when I worked as a lead technician for the IT department at Brigham " +
+      "Young University - Idaho. As a technician lead, I helped dozens of technicians to achieve their goals " +
+      "and potential by ensuring we all, as a team, worked together to remove any technological obstacle " +
+      "that may arise for our students, teachers, and BYU-I staff.",
       FirstItem: "\u2022 Recorded and classified Incidents and undertook an immediate effort to fix " +
       "computer issues.",
       SecondItem: "\u2022 Monitored IT Technicians to ensure they reach their goals, and the IT " + 
@@ -204,7 +208,9 @@ export const ResumeSlider = [
       imageWidth: "290px",
       imageHeight: "340px",
       imageAlt: "My technician badge",
-      ImageDescription: "",
+      ImageDescription: "Photo of my IT technician badge at Brigham Young University - Idaho. I feel very " +
+      "honored to have carried it on my chest for about 1 year and 4 months. My main goal as a technician " +
+      "was to help students and employees to achieve their academic, professional, and spiritual goals through technology.",
       FirstItem: "\u2022 IT troubleshooting & problem-solving.",
       SecondItem: "\u2022 Performed data backups on Onedrive, mapped network drives, and updated Active Directory.",
       ThirdItem: "\u2022 Answered phone calls and provided remote technical support.",
