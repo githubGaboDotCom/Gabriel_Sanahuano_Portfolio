@@ -12,8 +12,8 @@ function ContactMePage () {
                     <img id="smileyFaceEmoji" src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.gif" alt="😀" width="26" height="24.5"/>
                     <h2>Send Me a Message!</h2>
                 </div>
-                <p className="connectInvitation">Let's chat and create something together. If you have any fun projects or ideas to revolutionize your business through 
-                   software, you're in the right place and I would love to help and contribute to them. Get in touch by completing the 
+                <p className="connectInvitation">Let's chat and create something together. If you have any fun projects or ideas to revolutionize the world through 
+                   technology and software, you're in the right place and I would love to help and contribute to them. Get in touch by completing the 
                    form below, and I'll be contacting you soon. Thanks for visiting my portfolio! 
                 </p>
                 <form>
