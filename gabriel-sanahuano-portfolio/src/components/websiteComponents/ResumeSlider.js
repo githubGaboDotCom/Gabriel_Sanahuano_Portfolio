@@ -64,9 +64,13 @@ export const ResumeSlider = [
       imageAlt: "Heinsohn company logo",
       ImageDescription: "I am glad to be part of this great company. Heisohn specializes in developing customized " +
       "technology tailored to our customers' unique objectives, always to ensure efficiency and optimized costs.",   
-      FirstItem: "\u2022 In progress.",
-      SecondItem: "\u2022 In progress.",
-      ThirdItem: "\u2022 In progress.",
+      FirstItem: "\u2022 Develop and execute test plans, test cases, and test scripts for Oracle HCM Payroll Core, " +
+      "Absence Management, Time & Labor.",
+      SecondItem: "\u2022 Perform functional, regression, integration, and user acceptance testing (UAT) for " +
+      "payroll calculations, tax configurations, earnings and deductions, and retroactive payments across multiple " +
+      "pay periods.",
+      ThirdItem: "\u2022 In Use Oracle HCM tools such as HCM Extracts and Fast Formulas to validate data accuracy " +
+      "and troubleshoot discrepancies.",
       FourthItem: "\u2022 In progress."
     },
     {
