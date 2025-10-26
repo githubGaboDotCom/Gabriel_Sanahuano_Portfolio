@@ -65,16 +65,17 @@ export const ResumeSlider = [
       ImageDescription: "I am glad to be part of this great company. Heisohn specializes in developing customized " +
       "technology tailored to our customers' unique objectives, always to ensure efficiency and optimized costs.",   
       FirstItem: "\u2022 Develop and execute test plans, test cases, and test scripts for Oracle HCM Payroll Core, " +
-      "Absence Management, and Time & Labor.",
+      "Absence Management, and Time & Labor to validate end-to-end system functionality and ensure compliance " +
+      "with internal QA standards, audit requirements, and business requirements.",
       SecondItem: "\u2022 Perform functional, regression, integration, and user acceptance testing (UAT) for " +
-      "for payroll-related enhancements, patches, and upgrades.",
-      ThirdItem: "\u2022 Use Oracle HCM tools such as HCM Extracts and Fast Formulas to validate data accuracy " +
+      "payroll-related enhancements, patches, and upgrades.",
+      ThirdItem: "\u2022 Use Oracle HCM tools such as HCM Extracts, Fast Formulas, and SQL queries to validate data accuracy " +
       "and troubleshoot discrepancies.",
       FourthItem: "\u2022 Validate payroll calculations, tax configurations, earnings and deductions, " +
       "gross-to-net calculations, payroll costing and retroactive payments across multiple pay periods.",
       FifthItem: "\u2022 Automate test scenarios using tools such as Playwright and Typescript.",
-      SixthItem: "\u2022 Skills: SQL · Microsoft Azure Devops · Playwright · Typescript"
-
+      SixthItem: "\u2022 Skills: SQL · Microsoft Azure Devops · Playwright · Typescript · Agile Software Development · " +
+      "Oracle Cloud HCM"
     },
     {
       Title: "Work Experience",

@@ -2,10 +2,10 @@ export const MyProjectsSlider = [
     {
         AppName: 'Pasuca Calculator',
         WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
-        AppDescription: 'Web application that stores products with their respective ' +
+        AppDescription: 'A Web application that stores products with their respective ' +
         'prices, and then calculates the total purchase price. One of its features ' + 
-        'is a search bar with a filter to search for the desired products and then add ' +
-        'them to the list of selected products to purchase.',
+        'is a search bar with a filter that allows users to search for specific products and add ' +
+        'them to a list of selected products to purchase.',
         ProjectSkills: 'Skills: HTML, CSS, JavaScript.',
         AppWebURL: 'https://githubgabodotcom.github.io/Pasuca_Calculator/',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/Pasuca_Calculator/tree/main',
@@ -16,7 +16,7 @@ export const MyProjectsSlider = [
         WebUrl: 'https://www.youtube.com/embed/sDuQHH-8wNY?si=1WGUUsbZhORngFEW',
         AppDescription: 'A personal project to improve my skills in the field of Artificial ' +
         'Intelligence. The goal is to translate some signs of the American Sign Language into ' +
-        'English words.  It’s an application very easy to use and destined to help learning some ' +
+        'English words.  It’s an application that is very easy to use and designed to help you learn some ' +
         'signs in a very interactive way.',
         ProjectSkills: 'Skills: HTML, CSS, JavaScript, React.js, Node.js, MySQL, Tensorflow.js',
         AppWebURL: 'https://github.com/githubGaboDotCom/Sign-Language-Translator-Web-App',
