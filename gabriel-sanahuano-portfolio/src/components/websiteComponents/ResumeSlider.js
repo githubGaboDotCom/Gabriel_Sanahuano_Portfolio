@@ -72,8 +72,8 @@ export const ResumeSlider = [
       "and troubleshoot discrepancies.",
       FourthItem: "\u2022 Validate payroll calculations, tax configurations, earnings and deductions, " +
       "gross-to-net calculations, payroll costing and retroactive payments across multiple pay periods.",
-      FifthItem: "\u2022 ",
-      SixthItem: "\u2022 Skills: "
+      FifthItem: "\u2022 Automate test scenarios using tools such as Playwright and Typescript.",
+      SixthItem: "\u2022 Skills: SQL · Microsoft Azure Devops · Playwright · Typescript"
 
     },
     {
