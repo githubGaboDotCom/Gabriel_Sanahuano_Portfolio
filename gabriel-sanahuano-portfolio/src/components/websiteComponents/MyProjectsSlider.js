@@ -28,8 +28,8 @@ export const MyProjectsSlider = [
         WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
         AppDescription: 'This app provides users with a way to manage their time more efficiently. ' +
         'You can create an account and log in to record all your daily activities and the time you ' +
-        'spend doing them. You can also see monthly and annual statistics on the activities that consume ' +
-        'most of your time, and use the app to set goals and be more productive throughout your day.',
+        'spend doing them. You can also view monthly and annual statistics on the activities that consume the ' +
+        'most of your time, and use the app to set goals and increase productivity throughout your day.',
         ProjectSkills: 'Skills: HTML, CSS, JavaScript.',
         AppWebURL: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/TimeTrackingApp-Project',
@@ -38,10 +38,10 @@ export const MyProjectsSlider = [
     {
         AppName: 'Gospel Library App',
         WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
-        AppDescription: 'This application helps you with your scriptures study. It provides you ' +
-        'with religious books such as the Book of Mormon, Old Testament, New Testament, Doctrine ' +
-        'and Covenants, and The Pearl of Great Price. It has features to highlight interesting ' +
-        'verses and make annotations of your study.',
+        AppDescription: 'This app helps you with your scripture study. It provides you ' +
+        'with religious books, including the Book of Mormon, the Old Testament, the New Testament, the Doctrine ' +
+        'and Covenants, and The Pearl of Great Price. The app lets you highlight interesting ' +
+        'verses and take notes as you study.',
         ProjectSkills: 'Skills: Java',
         AppWebURL: 'https://github.com/githubGaboDotCom/Gospel_Library_App-Project',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/Gospel_Library_App-Project',
