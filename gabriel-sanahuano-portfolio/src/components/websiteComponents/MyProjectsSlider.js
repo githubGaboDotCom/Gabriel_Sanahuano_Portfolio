@@ -50,10 +50,10 @@ export const MyProjectsSlider = [
     {
         AppName: 'Analytics Deployment App with Docker and Streamlit',
         WebUrl: 'https://www.youtube.com/embed/9ivLkYlOeOI?si=IgYrUPyqStmCVVoD',
-        AppDescription: 'This project consists of a study to understand the behavior of Chipotle consumers. I ' +
-        'used a Safegraph database to access information about people who have visited Chipotle facilities ' +
-        'in the last four years. This study helps us know the popular brands that Chipotle customers prefer ' +
-        'to go to often, either on the same day or in the same month of visiting Chipotle.',
+        AppDescription: 'This project analyzes the behavior of Chipotle customers using data from the SafeGraph database. ' +
+        'The dataset includes information about individuals who visited Chipotle locations over the past four years. ' +
+        'The study identifies other popular brands that Chipotle customers tend to visit frequently, either on the same ' +
+        'day or within the same month of their Chipotle visit.',
         ProjectSkills: 'Skills: Pyspark, SparkSQL, Python, Docker, Databricks, Streamlit',
         AppWebURL: 'https://github.com/githubGaboDotCom/Docker-Streamlit_App_with_Heroku',
         GithubRepositoryLink: 'https://github.com/githubGaboDotCom/Docker-Streamlit_App_with_Heroku',
